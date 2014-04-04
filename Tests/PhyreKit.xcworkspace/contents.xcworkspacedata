@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../Classes"
+      name = "Classes">
+      <Group
+         location = "group:Foundation"
+         name = "Foundation">
+         <FileRef
+            location = "group:NSObject+PhyreKit.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSObject+PhyreKit.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+PhyreKit.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+PhyreKit.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:PhyreKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

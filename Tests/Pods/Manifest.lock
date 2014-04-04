@@ -1,0 +1,14 @@
+PODS:
+  - PhyreKit (0.1.0)
+
+DEPENDENCIES:
+  - PhyreKit (from `../`)
+
+EXTERNAL SOURCES:
+  PhyreKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PhyreKit: 0dafa01b3c9bb096f334ddac1f3cdfb080478e81
+
+COCOAPODS: 0.31.1

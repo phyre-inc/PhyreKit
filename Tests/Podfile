@@ -1,0 +1,6 @@
+target "PhyreKit" do
+    pod "PhyreKit", :path => "../"
+end
+
+target "PhyreKitTests" do
+end
