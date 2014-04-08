@@ -4,6 +4,9 @@
    <Group
       location = "group:../Classes"
       name = "Classes">
+      <FileRef
+         location = "group:PhyreKit.h">
+      </FileRef>
       <Group
          location = "group:Foundation"
          name = "Foundation">
