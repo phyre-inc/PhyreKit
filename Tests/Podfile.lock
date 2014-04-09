@@ -1,5 +1,9 @@
 PODS:
-  - PhyreKit (0.1.0)
+  - PhyreKit (0.1.1):
+    - PhyreKit/Foundation
+    - PhyreKit/UIKit
+  - PhyreKit/Foundation (0.1.1)
+  - PhyreKit/UIKit (0.1.1)
 
 DEPENDENCIES:
   - PhyreKit (from `../`)
@@ -9,6 +13,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PhyreKit: 1bc2eca2c58db4ee1276b25958fbdb8738d0119f
+  PhyreKit: 468771c79e27adf27cf15fea56c1afa81c81d8f1
 
 COCOAPODS: 0.31.1
