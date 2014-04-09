@@ -15,9 +15,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'Classes/Foundation/*.{h,m}'
+    ss.requires_arc = true
   end
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'Classes/UIKit/*.{h,m}'
+    ss.requires_arc = true
   end
 end
