@@ -10,19 +10,6 @@
 
 @implementation NSArray (PhyreKit)
 
-- (NSArray *)phy_objectsOfClass:(Class)objClass
-{
-	NSMutableArray *array = [NSMutableArray array];
-	
-	for (id obj in self) {
-		if ([obj isKindOfClass:objClass]) {
-			[array addObject:obj];
-		}
-	}
-	
-	return [array copy];
-}
-
 - (NSArray *)phy_map:(id (^)(id object))mapBlock
 {
 	NSMutableArray *mappedArray = [NSMutableArray array];
@@ -35,6 +22,13 @@
 	}
 	
 	return [mappedArray copy];
+}
+
+- (NSArray *)phy_objectsOfClass:(Class)objClass
+{
+	return [self phy_map:^id(id object) {
+		return ([object isKindOfClass:objClass] ? object : nil);
+	}];
 }
 
 @end

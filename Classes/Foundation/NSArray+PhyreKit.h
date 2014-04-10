@@ -10,7 +10,7 @@
 
 @interface NSArray (PhyreKit)
 
-- (NSArray *)phy_objectsOfClass:(Class)objClass;
 - (NSArray *)phy_map:(id (^)(id object))mapBlock;
+- (NSArray *)phy_objectsOfClass:(Class)objClass;
 
 @end
