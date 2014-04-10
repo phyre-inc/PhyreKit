@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (PhyreAdditions)
+@interface UIViewController (PhyreKit)
 
 @property (nonatomic, assign, readonly) BOOL phy_isViewVisible;
 

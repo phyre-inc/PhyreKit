@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (PhyreAdditions)
+@interface UIFont (PhyreKit)
 
 + (UIFont *)phy_preferredFontForTextStyle:(NSString *)style withSymbolicTraits:(UIFontDescriptorSymbolicTraits)symbolicTraits;
 

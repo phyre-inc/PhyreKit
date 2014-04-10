@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSAttributedString (PhyreAdditions)
+@interface NSAttributedString (PhyreKit)
 
 + (instancetype)phy_stringWithString:(NSString *)str;
 + (instancetype)phy_stringWithString:(NSString *)str attributes:(NSDictionary *)attrs;
@@ -17,7 +17,7 @@
 @end
 
 
-@interface NSMutableAttributedString (PhyreAdditions)
+@interface NSMutableAttributedString (PhyreKit)
 
 - (void)phy_setAllAttributes:(NSDictionary *)attrs;
 - (void)phy_replaceOccurrencesOfString:(NSString *)str withAttributedString:(NSAttributedString *)attrString;

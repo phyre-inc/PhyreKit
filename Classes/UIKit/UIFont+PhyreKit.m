@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Phyre. All rights reserved.
 //
 
-#import "UIFont+PhyreAdditions.h"
+#import "UIFont+PhyreKit.h"
 
-@implementation UIFont (PhyreAdditions)
+@implementation UIFont (PhyreKit)
 
 + (UIFont *)phy_preferredFontForTextStyle:(NSString *)style withSymbolicTraits:(UIFontDescriptorSymbolicTraits)symbolicTraits
 {

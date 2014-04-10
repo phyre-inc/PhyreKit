@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Phyre. All rights reserved.
 //
 
-#import "NSAttributedString+PhyreAdditions.h"
+#import "NSAttributedString+PhyreKit.h"
 
-@implementation NSAttributedString (PhyreAdditions)
+@implementation NSAttributedString (PhyreKit)
 
 + (instancetype)phy_stringWithString:(NSString *)str
 {
@@ -28,7 +28,7 @@
 @end
 
 
-@implementation NSMutableAttributedString (PhyreAdditions)
+@implementation NSMutableAttributedString (PhyreKit)
 
 - (void)phy_setAllAttributes:(NSDictionary *)attrs
 {

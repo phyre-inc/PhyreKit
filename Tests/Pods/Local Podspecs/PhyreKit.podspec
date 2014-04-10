@@ -22,4 +22,15 @@ Pod::Spec.new do |s|
     ss.source_files = 'Classes/UIKit/*.{h,m}'
     ss.requires_arc = true
   end
+
+  s.subspec 'CoreLocation' do |ss|
+    ss.source_files = 'Classes/CoreLocation/*.{h,m}'
+    ss.frameworks = 'CoreLocation'
+    ss.requires_arc = true
+  end
+
+  s.subspec 'Vendor' do |ss|
+    ss.source_files = 'Classes/Vendor/*.{h,m}'
+    ss.requires_arc = true
+  end
 end

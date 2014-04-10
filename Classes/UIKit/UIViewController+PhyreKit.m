@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Phyre. All rights reserved.
 //
 
-#import "UIViewController+PhyreAdditions.h"
+#import "UIViewController+PhyreKit.h"
 
-@implementation UIViewController (PhyreAdditions)
+@implementation UIViewController (PhyreKit)
 
 - (BOOL)phy_isViewVisible
 {
