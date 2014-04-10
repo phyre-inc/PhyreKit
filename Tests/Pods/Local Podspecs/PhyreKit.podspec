@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PhyreKit"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Common utilities for Phyre Inc."
   s.homepage         = "http://rallyapp.io"
   s.license          = 'MIT'
@@ -15,9 +15,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'Classes/Foundation/*.{h,m}'
+    ss.requires_arc = true
   end
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'Classes/UIKit/*.{h,m}'
+    ss.requires_arc = true
   end
 end
