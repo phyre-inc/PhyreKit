@@ -31,4 +31,73 @@
 	}];
 }
 
+
+- (NSArray *)phy_arrayByMergingChangesWithArray:(NSArray *)objects
+										compare:(PHYMergeComparisonResult (^)(id existingObject, id object))compareBlock
+										 update:(id (^)(id existingObject, id object))updateBlock
+										 insert:(id (^)(id object))insertBlock
+										 delete:(BOOL (^)(id existingObject))deleteBlock
+										  added:(void (^)(id addedObject))addedBlock
+{
+	NSMutableArray *result = [NSMutableArray array];
+	
+	NSEnumerator *objectsEnumerator = [objects objectEnumerator];
+	NSEnumerator *enumerator = [self objectEnumerator];
+	
+	id object = [objectsEnumerator nextObject];
+	id existingObject = [enumerator nextObject];
+	
+	while (existingObject || object) {
+		id objectToAdd = nil;
+		PHYMergeComparisonResult compareResult;
+		
+		if (!existingObject) {
+			compareResult = PHYMergeInsert;
+		} else if (!object) {
+			compareResult = PHYMergeDelete;
+		} else {
+			compareResult = compareBlock(existingObject, object);
+		}
+		
+		if (compareResult == PHYMergeUpdate) {
+			if (updateBlock) {
+				objectToAdd = updateBlock(existingObject, object);
+			} else {
+				objectToAdd = existingObject;
+			}
+			
+			object = [objectsEnumerator nextObject];
+			existingObject = [enumerator nextObject];
+		} else if (compareResult == PHYMergeInsert) {
+			if (insertBlock) {
+				objectToAdd = insertBlock(object);
+			}
+			
+			object = [objectsEnumerator nextObject];
+		} else if (compareResult == PHYMergeDelete) {
+			BOOL shouldDelete = NO;
+			
+			if (deleteBlock) {
+				shouldDelete = deleteBlock(existingObject);
+			}
+			
+			if (!shouldDelete) {
+				objectToAdd = existingObject;
+			}
+			
+			existingObject = [enumerator nextObject];
+		}
+		
+		if (objectToAdd) {
+			[result addObject:objectToAdd];
+			
+			if (addedBlock) {
+				addedBlock(objectToAdd);
+			}
+		}
+	}
+	
+	return [result copy];
+}
+
 @end
