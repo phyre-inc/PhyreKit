@@ -23,6 +23,12 @@ BOOL PHYEqualStrings(NSString *str1, NSString *str2)
 }
 
 
+NSString * PHYStringFromBOOL(BOOL aBool)
+{
+	return aBool ? @"YES" : @"NO";
+}
+
+
 
 #pragma mark - NSString (PhyreKit)
 
