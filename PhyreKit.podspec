@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Matt Ricketson" => "matt@phyreup.com" }
   s.source           = { :git => "git@bitbucket.org:phyre/phyrekit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.social_media_url = 'https://twitter.com/phyreup'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
