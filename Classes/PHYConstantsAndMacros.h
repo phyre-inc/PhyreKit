@@ -38,14 +38,7 @@
 #define PHYWeakSelf(_weak_self_)			PHYWeakRef(self, _weak_self_)
 #define PHYStrongSelf(_strong_self_)		PHYStrongRef(self, _strong_self_)
 
-inline void phy_dispatch_sync_on_main_queue(void (^block)(void))
-{
-    if ([NSThread isMainThread]) {
-        block();
-    } else {
-        dispatch_sync(dispatch_get_main_queue(), block);
-    }
-}
+void phy_dispatch_sync_on_main_queue(void (^block)(void));
 
 
 

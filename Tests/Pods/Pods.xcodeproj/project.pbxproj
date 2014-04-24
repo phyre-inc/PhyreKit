@@ -86,6 +86,7 @@
 		B2E49E0BA7314E858129A482 /* libPods-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8AFCE6F18A4258B936A09F /* UIImage+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PhyreKit.h"; path = "Classes/UIKit/UIImage+PhyreKit.h"; sourceTree = "<group>"; };
 		C8E2B81A268041618DA016AE /* CLLocation+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+PhyreKit.m"; path = "Classes/CoreLocation/CLLocation+PhyreKit.m"; sourceTree = "<group>"; };
+		C94D697E190983B30072DCE3 /* PHYConstantsAndMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PHYConstantsAndMacros.m; path = Classes/PHYConstantsAndMacros.m; sourceTree = "<group>"; };
 		D39CD54C8AF4444DA5FA50A3 /* NSArray+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PhyreKit.h"; path = "Classes/Foundation/NSArray+PhyreKit.h"; sourceTree = "<group>"; };
 		D3ECFCA96F0549E7A71E3EA2 /* PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhyreKit.h; path = Classes/PhyreKit.h; sourceTree = "<group>"; };
 		DEFEE04BDCD34638BF07CD3A /* NSDictionary+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PhyreKit.h"; path = "Classes/Foundation/NSDictionary+PhyreKit.h"; sourceTree = "<group>"; };
@@ -192,6 +193,7 @@
 			children = (
 				D3ECFCA96F0549E7A71E3EA2 /* PhyreKit.h */,
 				9BAB7D499ADA4274A25DAF27 /* PHYConstantsAndMacros.h */,
+				C94D697E190983B30072DCE3 /* PHYConstantsAndMacros.m */,
 				9A93A50F3CE74FA68DB12500 /* CoreLocation */,
 				31F5932179854EF6BFEEE84C /* Foundation */,
 				59087135CD0D483CA0A0CB94 /* Support Files */,
