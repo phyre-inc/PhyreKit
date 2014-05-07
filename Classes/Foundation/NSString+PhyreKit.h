@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-BOOL PHYStringIsEmpty(NSString *str);
+BOOL PHYEmptyString(NSString *str);
 BOOL PHYEqualStrings(NSString *str1, NSString *str2);
 
 /**
