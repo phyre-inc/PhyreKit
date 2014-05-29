@@ -1,632 +1,1858 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		11123FF8065C4E0299574F97 /* UIFont+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		182E77E19D8C484E8A573133 /* NSString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD77D139A56441C975388DA /* NSString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		1ABD1E1C6F0C49268D4D2136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6231E6E5C88B4500A7E5997C /* Foundation.framework */; };
-		1BFE2527A56D47F285FD3616 /* PHYConstantsAndMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		1E2159AE4FF14AF6A48287F5 /* Pods-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */; };
-		23C748650D3C451BAC2DAF06 /* NSArray+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		26685DA779984767A794C024 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		2BD7B55E5A2E4DD18ADF9AA6 /* UIImage+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */; };
-		31E665B0F7C344A3AEDD4849 /* CLLocation+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */; };
-		5AA90ACF7F014DEAA9F0A977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6231E6E5C88B4500A7E5997C /* Foundation.framework */; };
-		60C3A4BCE3E4410F82544F8A /* PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BF7A45ABAF4D97AD38119F /* PhyreKit.h */; };
-		637574E5A1274BF9BC4BF92E /* NSDictionary+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		6DEBC9C4D2BF41D79C7B90E1 /* NSDictionary+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */; };
-		6F5A306B5EC04F5C9D063602 /* UIImage+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		725DD49901D24D0EBF0FBB7E /* UIFont+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */; };
-		77516AC8412A48ABAD18C62C /* UIView+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */; };
-		7D22CAD456B44C819EED9926 /* NSCache+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */; };
-		82826EE468EE4463A8DA0705 /* libPods-PhyreKit-PhyreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */; };
-		850D0AD005FB455F8E5E2B64 /* NSCache+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		8B5E9CE8D73F447CB5C0100E /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */; };
-		919A09542F604499B3F4FD44 /* PHYConstantsAndMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */; };
-		9303C014D82C4D9AA16D3302 /* NSArray+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */; };
-		9F263743953B4702999BD11F /* NSObject+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */; };
-		9FFF8974C6D94B09B3AC4E20 /* NSAttributedString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */; };
-		A86BB5AD7D104F8B8CBB8EAE /* UIViewController+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 970611408338468E8065FE5E /* UIViewController+PhyreKit.h */; };
-		A8A96398EA864AECA62D9619 /* NSAttributedString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		B522E6F4D4014DD4834CAA32 /* NSString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */; };
-		B60785A91C574780B0DDA532 /* NSObject+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		B6CA35B57DEB4B68A706283F /* UIView+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		C95DCEE185484CE8A18660B0 /* UIColor+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 424DA347D0F841C0A544A80E /* UIColor+Expanded.h */; };
-		C9A3F3C21937D1F30061587D /* NSError+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */; };
-		C9A3F3C31937D1F30061587D /* NSError+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */; };
-		C9A3F3C61937D28C0061587D /* UIAlertView+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */; };
-		C9A3F3C71937D28C0061587D /* UIAlertView+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */; };
-		CA4ACB8E352F4C529FF3F8B2 /* CLLocation+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		CAE8E9FEB3AB4251A48C014A /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		EFCB2E0647994407B4F042C5 /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */; };
-		FAB189CA0DF24F499327777F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */; };
-		FF62CC3E94B043F5BE03AC57 /* UIViewController+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0163EDA637DD4285A71F76EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1859609F406482383D34587 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E15C586F99849ADAAD62A97;
-			remoteInfo = "Pods-PhyreKit-PhyreKit";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+PhyreKit.m"; path = "Classes/Foundation/NSCache+PhyreKit.m"; sourceTree = "<group>"; };
-		1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit.xcconfig"; sourceTree = "<group>"; };
-		1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/Vendor/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-PhyreKit-dummy.m"; sourceTree = "<group>"; };
-		21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PhyreKit.h"; path = "Classes/Foundation/NSObject+PhyreKit.h"; sourceTree = "<group>"; };
-		26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PhyreKit.m"; path = "Classes/UIKit/UIView+PhyreKit.m"; sourceTree = "<group>"; };
-		29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+PhyreKit.m"; path = "Classes/UIKit/UIFont+PhyreKit.m"; sourceTree = "<group>"; };
-		3606B15C0086412ABD43EC6E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4072A91392404F2081505B87 /* libPods-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		424DA347D0F841C0A544A80E /* UIColor+Expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Expanded.h"; path = "Classes/Vendor/UIColor+Expanded.h"; sourceTree = "<group>"; };
-		4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PhyreKit.h"; path = "Classes/UIKit/UIView+PhyreKit.h"; sourceTree = "<group>"; };
-		4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PhyreKit.m"; path = "Classes/Foundation/NSDictionary+PhyreKit.m"; sourceTree = "<group>"; };
-		49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+PhyreKit.m"; path = "Classes/CoreLocation/CLLocation+PhyreKit.m"; sourceTree = "<group>"; };
-		4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		59BF7A45ABAF4D97AD38119F /* PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhyreKit.h; path = Classes/PhyreKit.h; sourceTree = "<group>"; };
-		5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PhyreKit.m"; path = "Classes/Foundation/NSArray+PhyreKit.m"; sourceTree = "<group>"; };
-		5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhyreKit.m"; path = "Classes/Foundation/NSObject+PhyreKit.m"; sourceTree = "<group>"; };
-		6231E6E5C88B4500A7E5997C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+PhyreKit.m"; path = "Classes/Foundation/NSAttributedString+PhyreKit.m"; sourceTree = "<group>"; };
-		649BB2C3178E4D9BA9C8B522 /* Pods-PhyreKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhyreKit-resources.sh"; sourceTree = "<group>"; };
-		6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+PhyreKit.h"; path = "Classes/Foundation/NSAttributedString+PhyreKit.h"; sourceTree = "<group>"; };
-		6607460118834D3B8903F6C8 /* Pods-PhyreKit-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit.xcconfig"; sourceTree = "<group>"; };
-		6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PhyreKit.h"; path = "Classes/Foundation/NSArray+PhyreKit.h"; sourceTree = "<group>"; };
-		6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit-Private.xcconfig"; sourceTree = "<group>"; };
-		74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PhyreKit.h"; path = "Classes/Foundation/NSDictionary+PhyreKit.h"; sourceTree = "<group>"; };
-		764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHYConstantsAndMacros.h; path = Classes/PHYConstantsAndMacros.h; sourceTree = "<group>"; };
-		76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PhyreKit.m"; path = "Classes/UIKit/UIImage+PhyreKit.m"; sourceTree = "<group>"; };
-		7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHYConstantsAndMacros.m; path = Classes/PHYConstantsAndMacros.m; sourceTree = "<group>"; };
-		7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+PhyreKit.h"; path = "Classes/Foundation/NSCache+PhyreKit.h"; sourceTree = "<group>"; };
-		7E15282FA96F4E39B7666B79 /* Pods-PhyreKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhyreKit-acknowledgements.plist"; sourceTree = "<group>"; };
-		970611408338468E8065FE5E /* UIViewController+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PhyreKit.h"; path = "Classes/UIKit/UIViewController+PhyreKit.h"; sourceTree = "<group>"; };
-		A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PhyreKit.h"; path = "Classes/Foundation/NSString+PhyreKit.h"; sourceTree = "<group>"; };
-		AF3511564A774C49B4179EB3 /* Pods-PhyreKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-environment.h"; sourceTree = "<group>"; };
-		AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+PhyreKit.h"; path = "Classes/UIKit/UIFont+PhyreKit.h"; sourceTree = "<group>"; };
-		BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PhyreKit.m"; path = "Classes/UIKit/UIViewController+PhyreKit.m"; sourceTree = "<group>"; };
-		BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-dummy.m"; sourceTree = "<group>"; };
-		C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PhyreKit.h"; path = "Classes/UIKit/UIImage+PhyreKit.h"; sourceTree = "<group>"; };
-		C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+PhyreKit.h"; path = "Classes/Foundation/NSError+PhyreKit.h"; sourceTree = "<group>"; };
-		C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+PhyreKit.m"; path = "Classes/Foundation/NSError+PhyreKit.m"; sourceTree = "<group>"; };
-		C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+PhyreKit.h"; path = "Classes/UIKit/UIAlertView+PhyreKit.h"; sourceTree = "<group>"; };
-		C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+PhyreKit.m"; path = "Classes/UIKit/UIAlertView+PhyreKit.m"; sourceTree = "<group>"; };
-		DBD77D139A56441C975388DA /* NSString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PhyreKit.m"; path = "Classes/Foundation/NSString+PhyreKit.m"; sourceTree = "<group>"; };
-		E2E5D81D490E494AA6F6F741 /* Pods-PhyreKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhyreKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Expanded.m"; path = "Classes/Vendor/UIColor+Expanded.m"; sourceTree = "<group>"; };
-		F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/Vendor/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		F5737B052AF0432290FC394F /* Pods-PhyreKit-PhyreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-PhyreKit-prefix.pch"; sourceTree = "<group>"; };
-		FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+PhyreKit.h"; path = "Classes/CoreLocation/CLLocation+PhyreKit.h"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		044F17C467D54F0981654411 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1ABD1E1C6F0C49268D4D2136 /* Foundation.framework in Frameworks */,
-				82826EE468EE4463A8DA0705 /* libPods-PhyreKit-PhyreKit.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7E00669682548F0829832D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAB189CA0DF24F499327777F /* CoreLocation.framework in Frameworks */,
-				5AA90ACF7F014DEAA9F0A977 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		1418606A2BED42999F34C432 /* CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-				FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */,
-				49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */,
-			);
-			name = CoreLocation;
-			sourceTree = "<group>";
-		};
-		1F8D004CBD194769A8A1A00C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */,
-				6231E6E5C88B4500A7E5997C /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2FC95781925543A8980C4613 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4072A91392404F2081505B87 /* libPods-PhyreKit.a */,
-				E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		52C1DBC7532C4CEBB7FA8B35 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6607460118834D3B8903F6C8 /* Pods-PhyreKit-PhyreKit.xcconfig */,
-				6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */,
-				1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */,
-				F5737B052AF0432290FC394F /* Pods-PhyreKit-PhyreKit-prefix.pch */,
-			);
-			name = "Support Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		625FDA29C4904E7AAD543DAF /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */,
-				29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */,
-				C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */,
-				76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */,
-				4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */,
-				26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */,
-				970611408338468E8065FE5E /* UIViewController+PhyreKit.h */,
-				BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */,
-				C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */,
-				C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		6352DA87A1444C4B90BD3219 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				98311AB7DDAB419EABB59490 /* PhyreKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		888348888EB749CE91B89941 = {
-			isa = PBXGroup;
-			children = (
-				3606B15C0086412ABD43EC6E /* Podfile */,
-				6352DA87A1444C4B90BD3219 /* Development Pods */,
-				EA47A241AE94451CB0B63DD2 /* Frameworks */,
-				2FC95781925543A8980C4613 /* Products */,
-				8D9C02E2C12C408B994B0B4E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8A9870A26C1E40A88FFC7BF9 /* Pods-PhyreKit */ = {
-			isa = PBXGroup;
-			children = (
-				1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */,
-				E2E5D81D490E494AA6F6F741 /* Pods-PhyreKit-acknowledgements.markdown */,
-				7E15282FA96F4E39B7666B79 /* Pods-PhyreKit-acknowledgements.plist */,
-				BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */,
-				AF3511564A774C49B4179EB3 /* Pods-PhyreKit-environment.h */,
-				649BB2C3178E4D9BA9C8B522 /* Pods-PhyreKit-resources.sh */,
-			);
-			name = "Pods-PhyreKit";
-			sourceTree = "<group>";
-		};
-		8D9C02E2C12C408B994B0B4E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A9870A26C1E40A88FFC7BF9 /* Pods-PhyreKit */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		98311AB7DDAB419EABB59490 /* PhyreKit */ = {
-			isa = PBXGroup;
-			children = (
-				764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */,
-				7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */,
-				59BF7A45ABAF4D97AD38119F /* PhyreKit.h */,
-				1418606A2BED42999F34C432 /* CoreLocation */,
-				FC515ACB842B48DD96FB843F /* Foundation */,
-				52C1DBC7532C4CEBB7FA8B35 /* Support Files */,
-				625FDA29C4904E7AAD543DAF /* UIKit */,
-				D3A10EED01934C55BA9ECA9F /* Vendor */,
-			);
-			name = PhyreKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D3A10EED01934C55BA9ECA9F /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				424DA347D0F841C0A544A80E /* UIColor+Expanded.h */,
-				E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */,
-				1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */,
-				F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
-		EA47A241AE94451CB0B63DD2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1F8D004CBD194769A8A1A00C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FC515ACB842B48DD96FB843F /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */,
-				5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */,
-				6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */,
-				63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */,
-				7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */,
-				0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */,
-				74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */,
-				4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */,
-				21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */,
-				5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */,
-				A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */,
-				DBD77D139A56441C975388DA /* NSString+PhyreKit.m */,
-				C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */,
-				C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		B3F2DED9BA634E1DB90A8E99 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31E665B0F7C344A3AEDD4849 /* CLLocation+PhyreKit.h in Headers */,
-				9303C014D82C4D9AA16D3302 /* NSArray+PhyreKit.h in Headers */,
-				9FFF8974C6D94B09B3AC4E20 /* NSAttributedString+PhyreKit.h in Headers */,
-				7D22CAD456B44C819EED9926 /* NSCache+PhyreKit.h in Headers */,
-				6DEBC9C4D2BF41D79C7B90E1 /* NSDictionary+PhyreKit.h in Headers */,
-				9F263743953B4702999BD11F /* NSObject+PhyreKit.h in Headers */,
-				B522E6F4D4014DD4834CAA32 /* NSString+PhyreKit.h in Headers */,
-				919A09542F604499B3F4FD44 /* PHYConstantsAndMacros.h in Headers */,
-				60C3A4BCE3E4410F82544F8A /* PhyreKit.h in Headers */,
-				C95DCEE185484CE8A18660B0 /* UIColor+Expanded.h in Headers */,
-				725DD49901D24D0EBF0FBB7E /* UIFont+PhyreKit.h in Headers */,
-				8B5E9CE8D73F447CB5C0100E /* UIImage+ImageEffects.h in Headers */,
-				2BD7B55E5A2E4DD18ADF9AA6 /* UIImage+PhyreKit.h in Headers */,
-				77516AC8412A48ABAD18C62C /* UIView+PhyreKit.h in Headers */,
-				C9A3F3C21937D1F30061587D /* NSError+PhyreKit.h in Headers */,
-				C9A3F3C61937D28C0061587D /* UIAlertView+PhyreKit.h in Headers */,
-				A86BB5AD7D104F8B8CBB8EAE /* UIViewController+PhyreKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24154731078244C692A8733A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */;
-			buildPhases = (
-				CC3416EA380A4CF39EF09461 /* Sources */,
-				C7E00669682548F0829832D4 /* Frameworks */,
-				B3F2DED9BA634E1DB90A8E99 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PhyreKit-PhyreKit";
-			productName = "Pods-PhyreKit-PhyreKit";
-			productReference = E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B1602B17D3644D07BBDFB737 /* Pods-PhyreKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37C7DEAE29CE4945AC620644 /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */;
-			buildPhases = (
-				831CAB17A2864E88AB557DD7 /* Sources */,
-				044F17C467D54F0981654411 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C85078E06DE64293A4FE1DC0 /* PBXTargetDependency */,
-			);
-			name = "Pods-PhyreKit";
-			productName = "Pods-PhyreKit";
-			productReference = 4072A91392404F2081505B87 /* libPods-PhyreKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		F1859609F406482383D34587 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0510;
-			};
-			buildConfigurationList = D26BF528DF734035A7072FC7 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 888348888EB749CE91B89941;
-			productRefGroup = 2FC95781925543A8980C4613 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B1602B17D3644D07BBDFB737 /* Pods-PhyreKit */,
-				7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		831CAB17A2864E88AB557DD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E2159AE4FF14AF6A48287F5 /* Pods-PhyreKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC3416EA380A4CF39EF09461 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9A3F3C71937D28C0061587D /* UIAlertView+PhyreKit.m in Sources */,
-				CA4ACB8E352F4C529FF3F8B2 /* CLLocation+PhyreKit.m in Sources */,
-				23C748650D3C451BAC2DAF06 /* NSArray+PhyreKit.m in Sources */,
-				A8A96398EA864AECA62D9619 /* NSAttributedString+PhyreKit.m in Sources */,
-				C9A3F3C31937D1F30061587D /* NSError+PhyreKit.m in Sources */,
-				850D0AD005FB455F8E5E2B64 /* NSCache+PhyreKit.m in Sources */,
-				637574E5A1274BF9BC4BF92E /* NSDictionary+PhyreKit.m in Sources */,
-				B60785A91C574780B0DDA532 /* NSObject+PhyreKit.m in Sources */,
-				182E77E19D8C484E8A573133 /* NSString+PhyreKit.m in Sources */,
-				1BFE2527A56D47F285FD3616 /* PHYConstantsAndMacros.m in Sources */,
-				EFCB2E0647994407B4F042C5 /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */,
-				CAE8E9FEB3AB4251A48C014A /* UIColor+Expanded.m in Sources */,
-				11123FF8065C4E0299574F97 /* UIFont+PhyreKit.m in Sources */,
-				26685DA779984767A794C024 /* UIImage+ImageEffects.m in Sources */,
-				6F5A306B5EC04F5C9D063602 /* UIImage+PhyreKit.m in Sources */,
-				B6CA35B57DEB4B68A706283F /* UIView+PhyreKit.m in Sources */,
-				FF62CC3E94B043F5BE03AC57 /* UIViewController+PhyreKit.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C85078E06DE64293A4FE1DC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */;
-			targetProxy = 0163EDA637DD4285A71F76EC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		1120C5CA480843CDB425D9A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		216DC1F4843844C5A1FA3A3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-			};
-			name = Debug;
-		};
-		4892E4516F474B41BDEEBF52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-PhyreKit-PhyreKit-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9422D60CF7334A3489082E64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CF1C4669803F4CD1B4963B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-PhyreKit-PhyreKit-prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E6A55A73FBE04C66A924A6BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		24154731078244C692A8733A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4892E4516F474B41BDEEBF52 /* Debug */,
-				CF1C4669803F4CD1B4963B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37C7DEAE29CE4945AC620644 /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9422D60CF7334A3489082E64 /* Debug */,
-				1120C5CA480843CDB425D9A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D26BF528DF734035A7072FC7 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				216DC1F4843844C5A1FA3A3D /* Debug */,
-				E6A55A73FBE04C66A924A6BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = F1859609F406482383D34587 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>00117C6E942F4F43B1B698E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>87BB7513B111466194AB5A54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>01D50009B8BB4053BFA8EDAB</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5265F96D31684751ADE75C0B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>946209D4C6164B7386DD7C76</string>
+				<string>C98908F10CA840BB932A18D2</string>
+				<string>3991352160BD4344B44E0F23</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-PhyreKit-PhyreKit</string>
+			<key>productName</key>
+			<string>Pods-PhyreKit-PhyreKit</string>
+			<key>productReference</key>
+			<string>5E64D2EFC74A4F7FA623D870</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>02FC2A7F7A1242DE91F1C8B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIFont+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIFont+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A64E621397C47A998773C0E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIColor+Expanded.h</string>
+			<key>path</key>
+			<string>Classes/Vendor/UIColor+Expanded.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0B49EDD2FA3848A98C73D80D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DC917FD291F84EF1BF536097</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0CC86B3B6F5B489982B54C83</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D5E5D8082C114F549871B891</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E10F08DF7E040469ED2A240</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>55716990EAEC4F4580755BF8</string>
+				<string>EC4A55537B714091801F2B68</string>
+				<string>D5E5D8082C114F549871B891</string>
+				<string>6D8C36042FD34FB1ABC5B752</string>
+				<string>9ECF421185B641D0A0C9501F</string>
+				<string>56A5F88A51604FB891FAACD4</string>
+				<string>F07EAE70386047008EF5E340</string>
+				<string>B533329229764AF1AAEF34E8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>PhyreKit</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E346A4F3CA94BFDA728244D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSString+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSString+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1110314E032D4C8BB49926C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSCache+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSCache+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12100D2B3015403F908C38FE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCDE88357F4C4C61A1FC9776</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>12CDB35C7F28422D9F4D527F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DCE4018930084E86BA5C2E7A</string>
+				<string>8027E9B9E6E142EC861075BD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>13FDBE2189164DA98CB11769</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C747FF41E8F04E87A1E92EB3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>156BA98EAA774A909CA6E6AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E64D2EFC74A4F7FA623D870</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>174AA069E6124A40B5ED979E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9336275FAC0E4FE5907CAA1F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>17B134414DDF452B92D4F224</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>24965A904059433FBFE2226A</string>
+				<string>156BA98EAA774A909CA6E6AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1CAB596096EA4AE1A76DABFD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9926C66E1D4D4567BC000F13</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23D47D7710904E72A959092D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E346A4F3CA94BFDA728244D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24965A904059433FBFE2226A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88ACCC240931491D98154945</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2504C60F36324AC2B923C158</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B6747F3EA4E4C338E77CD7C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreLocation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>326EE55B763E4208AC8B8EF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>498FD13C1D9D4D3DA43B8ED1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>339F4C4A24364708AFABAF90</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E837D486C48C4251B860C342</string>
+				<string>86D63276B8E34805A1556BFE</string>
+				<string>67304C0C48054666A8B6CAD0</string>
+				<string>2504C60F36324AC2B923C158</string>
+				<string>7BA4B65DDDA3473EABF8B536</string>
+				<string>B7F47DB4A05E4A36B6272204</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-PhyreKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>382F4FBA2F4841AAA33F2C20</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CLLocation+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/CoreLocation/CLLocation+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3955965580A8482BA9494AFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDictionary+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSDictionary+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3991352160BD4344B44E0F23</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CC7D1B3AB4914B5F9EC16FBC</string>
+				<string>DDEDE0A162C4414B95BC6F52</string>
+				<string>F30A4BA1E74141D88D1278FF</string>
+				<string>975AC616EBA14EF0AF475CC6</string>
+				<string>326EE55B763E4208AC8B8EF5</string>
+				<string>7C04ADB693D94C028ECE8E14</string>
+				<string>12100D2B3015403F908C38FE</string>
+				<string>23D47D7710904E72A959092D</string>
+				<string>46290CD1166F45B6AC34EC98</string>
+				<string>0CC86B3B6F5B489982B54C83</string>
+				<string>13FDBE2189164DA98CB11769</string>
+				<string>47ABAB614550419FBB63FC7E</string>
+				<string>4ABA6CE7A5304C40ADFB58FF</string>
+				<string>7913B9225BB74213B596D65F</string>
+				<string>DA4BE47D3A6D43589645B370</string>
+				<string>C81B7B1F1F2A4BE084C00E52</string>
+				<string>A6A3994E7F7F4A3E96CCF669</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3CBCD5FAD9E14F8FB7424792</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIViewController+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIViewController+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4002AA30B7E04AD7883392B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>40EBD705785B476DB1F347B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0FE00447D234E2F86835377</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>430A2EED2D8C425C8FED4429</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIAlertView+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIAlertView+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>457A2127B73344BDB57097D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>88ACCC240931491D98154945</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>46290CD1166F45B6AC34EC98</key>
+		<dict>
+			<key>fileRef</key>
+			<string>55716990EAEC4F4580755BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>47ABAB614550419FBB63FC7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0A64E621397C47A998773C0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>498FD13C1D9D4D3DA43B8ED1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDictionary+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSDictionary+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4ABA6CE7A5304C40ADFB58FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02FC2A7F7A1242DE91F1C8B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4BA6109BA3E443E7956852F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIView+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C255B58AA824746A46E5354</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BA6109BA3E443E7956852F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>4C779202E4A24F35A38D8B5F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B6747F3EA4E4C338E77CD7C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5265F96D31684751ADE75C0B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CB6A99F6EEE4B2E906F1694</string>
+				<string>8E9D0AE04AD549C99DA61377</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>55716990EAEC4F4580755BF8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PHYConstantsAndMacros.h</string>
+			<key>path</key>
+			<string>Classes/PHYConstantsAndMacros.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>56A5F88A51604FB891FAACD4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>983882FD3F68483C8FE1F494</string>
+				<string>C11262F366FE4ABEA36CA337</string>
+				<string>C9A24783FA0B463C9A433DEE</string>
+				<string>BE307130879F403EB478A363</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5A6B418BB9B14AEB901C8398</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIImage+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5BF83FAF2A864071896A8E68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BF6C549CE400442CA25949C2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>5E64D2EFC74A4F7FA623D870</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-PhyreKit-PhyreKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>65BA2175F9494BFF9DEB6C54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1A1C5AA28254501BDD5170A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>67304C0C48054666A8B6CAD0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D8C36042FD34FB1ABC5B752</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D673C826F4BC48A58E0012DE</string>
+				<string>382F4FBA2F4841AAA33F2C20</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CoreLocation</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E4D0B74EC7847D59B6F9ACE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8D8FAB693DFC458EA5CE4A33</string>
+				<string>5E64D2EFC74A4F7FA623D870</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>707DDCCADF9D4C239B5ED733</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIImage+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77ED0054E9F34FB3954338C0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSCache+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSCache+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7913B9225BB74213B596D65F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DAD8974E84EC41CB92FB7BEF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7BA4B65DDDA3473EABF8B536</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C04ADB693D94C028ECE8E14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CB8C600977649AD85AED11A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8027E9B9E6E142EC861075BD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E837D486C48C4251B860C342</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>82F8D6DDF0CD40E487CF78CC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4002AA30B7E04AD7883392B0</string>
+				<string>A6BE7C71F7FA490D854C88CB</string>
+				<string>0B49EDD2FA3848A98C73D80D</string>
+				<string>6E4D0B74EC7847D59B6F9ACE</string>
+				<string>C65457A962884E7C9B12E676</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86D63276B8E34805A1556BFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87BB7513B111466194AB5A54</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIColor+Expanded.m</string>
+			<key>path</key>
+			<string>Classes/Vendor/UIColor+Expanded.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87FC1D7E917E492D969CF9D6</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>NO</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>88ACCC240931491D98154945</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8C7E95F7C4234430905337CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DC640D4A1E3C4DB1AFEDC210</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>8CB6A99F6EEE4B2E906F1694</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C11262F366FE4ABEA36CA337</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-PhyreKit-PhyreKit-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8CB8C600977649AD85AED11A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSError+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSError+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D8FAB693DFC458EA5CE4A33</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-PhyreKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8D9B7EE1846642198AE53F78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9EC743965B8D4B3790F8364E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>8E9D0AE04AD549C99DA61377</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C11262F366FE4ABEA36CA337</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-PhyreKit-PhyreKit-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9336275FAC0E4FE5907CAA1F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIViewController+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIViewController+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>946209D4C6164B7386DD7C76</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F20CAC64FB034DF9A64C0B61</string>
+				<string>B2A04750566E4584AA211698</string>
+				<string>8D9B7EE1846642198AE53F78</string>
+				<string>A12BFBE9D98C4164844A3936</string>
+				<string>A07EE09DEE244B6DA68F6FCF</string>
+				<string>40EBD705785B476DB1F347B5</string>
+				<string>65BA2175F9494BFF9DEB6C54</string>
+				<string>5BF83FAF2A864071896A8E68</string>
+				<string>A4A3C4FFBE5446F191CBA0A6</string>
+				<string>E5D1A6AF9D184C399108E031</string>
+				<string>A089ED0F88C241CFA0953061</string>
+				<string>00117C6E942F4F43B1B698E4</string>
+				<string>8C7E95F7C4234430905337CD</string>
+				<string>CCAFD22CCCC94CC5B0E0E135</string>
+				<string>A0D163800A3045248CE18721</string>
+				<string>4C255B58AA824746A46E5354</string>
+				<string>174AA069E6124A40B5ED979E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>975AC616EBA14EF0AF475CC6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1110314E032D4C8BB49926C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>983882FD3F68483C8FE1F494</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-PhyreKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9926C66E1D4D4567BC000F13</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2504C60F36324AC2B923C158</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9EC743965B8D4B3790F8364E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSAttributedString+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSAttributedString+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ECF421185B641D0A0C9501F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F0145FAB294A498498E5D402</string>
+				<string>EED849B94A5E49049DDB5B8B</string>
+				<string>B1A972D743F746A89AF00B4B</string>
+				<string>9EC743965B8D4B3790F8364E</string>
+				<string>1110314E032D4C8BB49926C5</string>
+				<string>77ED0054E9F34FB3954338C0</string>
+				<string>498FD13C1D9D4D3DA43B8ED1</string>
+				<string>3955965580A8482BA9494AFA</string>
+				<string>8CB8C600977649AD85AED11A</string>
+				<string>B0FE00447D234E2F86835377</string>
+				<string>DCDE88357F4C4C61A1FC9776</string>
+				<string>C1A1C5AA28254501BDD5170A</string>
+				<string>0E346A4F3CA94BFDA728244D</string>
+				<string>BF6C549CE400442CA25949C2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Foundation</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A07EE09DEE244B6DA68F6FCF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3955965580A8482BA9494AFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A089ED0F88C241CFA0953061</key>
+		<dict>
+			<key>fileRef</key>
+			<string>430A2EED2D8C425C8FED4429</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A0D163800A3045248CE18721</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A6B418BB9B14AEB901C8398</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A12BFBE9D98C4164844A3936</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77ED0054E9F34FB3954338C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A395F4EE03F744C1AC16C96A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>12CDB35C7F28422D9F4D527F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1CAB596096EA4AE1A76DABFD</string>
+				<string>17B134414DDF452B92D4F224</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F6103B8C9BB447629B60ECE1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-PhyreKit</string>
+			<key>productName</key>
+			<string>Pods-PhyreKit</string>
+			<key>productReference</key>
+			<string>8D8FAB693DFC458EA5CE4A33</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>A4A3C4FFBE5446F191CBA0A6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC4A55537B714091801F2B68</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>A6A3994E7F7F4A3E96CCF669</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CBCD5FAD9E14F8FB7424792</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A6BE7C71F7FA490D854C88CB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0E10F08DF7E040469ED2A240</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0FE00447D234E2F86835377</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSError+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSError+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1A972D743F746A89AF00B4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSAttributedString+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSAttributedString+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2A04750566E4584AA211698</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EED849B94A5E49049DDB5B8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>B533329229764AF1AAEF34E8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0A64E621397C47A998773C0E</string>
+				<string>87BB7513B111466194AB5A54</string>
+				<string>DAD8974E84EC41CB92FB7BEF</string>
+				<string>CB1E08467C834388ABF82B11</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Vendor</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B7F47DB4A05E4A36B6272204</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE307130879F403EB478A363</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-PhyreKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF6C549CE400442CA25949C2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSString+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0FD0FA172F241A7A66CDC3A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>87FC1D7E917E492D969CF9D6</string>
+				<string>E806F304E5C94B6B8D9AFE04</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C11262F366FE4ABEA36CA337</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-PhyreKit-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1A1C5AA28254501BDD5170A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSObject+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSObject+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C65457A962884E7C9B12E676</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>339F4C4A24364708AFABAF90</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C747FF41E8F04E87A1E92EB3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIAlertView+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIAlertView+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C81B7B1F1F2A4BE084C00E52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E93B11FA08E749A1B6805FCE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C98908F10CA840BB932A18D2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4C779202E4A24F35A38D8B5F</string>
+				<string>457A2127B73344BDB57097D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C9A24783FA0B463C9A433DEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-PhyreKit-PhyreKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB1E08467C834388ABF82B11</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+ImageEffects.m</string>
+			<key>path</key>
+			<string>Classes/Vendor/UIImage+ImageEffects.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CB5DF5EA9D8848DABB9BF56D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>C0FD0FA172F241A7A66CDC3A</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>82F8D6DDF0CD40E487CF78CC</string>
+			<key>productRefGroup</key>
+			<string>6E4D0B74EC7847D59B6F9ACE</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>A395F4EE03F744C1AC16C96A</string>
+				<string>01D50009B8BB4053BFA8EDAB</string>
+			</array>
+		</dict>
+		<key>CC7D1B3AB4914B5F9EC16FBC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D673C826F4BC48A58E0012DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CCAFD22CCCC94CC5B0E0E135</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CB1E08467C834388ABF82B11</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>D5E5D8082C114F549871B891</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D673C826F4BC48A58E0012DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CLLocation+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/CoreLocation/CLLocation+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DA4BE47D3A6D43589645B370</key>
+		<dict>
+			<key>fileRef</key>
+			<string>707DDCCADF9D4C239B5ED733</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DAD8974E84EC41CB92FB7BEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+ImageEffects.h</string>
+			<key>path</key>
+			<string>Classes/Vendor/UIImage+ImageEffects.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DC640D4A1E3C4DB1AFEDC210</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIFont+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIFont+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DC917FD291F84EF1BF536097</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2B6747F3EA4E4C338E77CD7C</string>
+				<string>88ACCC240931491D98154945</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCDE88357F4C4C61A1FC9776</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSObject+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSObject+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCE4018930084E86BA5C2E7A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E837D486C48C4251B860C342</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>DDEDE0A162C4414B95BC6F52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0145FAB294A498498E5D402</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E5D1A6AF9D184C399108E031</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C9A24783FA0B463C9A433DEE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E806F304E5C94B6B8D9AFE04</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>NO</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E837D486C48C4251B860C342</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-PhyreKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E93B11FA08E749A1B6805FCE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/UIKit/UIView+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC4A55537B714091801F2B68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PHYConstantsAndMacros.m</string>
+			<key>path</key>
+			<string>Classes/PHYConstantsAndMacros.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EED849B94A5E49049DDB5B8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+PhyreKit.m</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSArray+PhyreKit.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F0145FAB294A498498E5D402</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+PhyreKit.h</string>
+			<key>path</key>
+			<string>Classes/Foundation/NSArray+PhyreKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F07EAE70386047008EF5E340</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C747FF41E8F04E87A1E92EB3</string>
+				<string>430A2EED2D8C425C8FED4429</string>
+				<string>02FC2A7F7A1242DE91F1C8B7</string>
+				<string>DC640D4A1E3C4DB1AFEDC210</string>
+				<string>707DDCCADF9D4C239B5ED733</string>
+				<string>5A6B418BB9B14AEB901C8398</string>
+				<string>E93B11FA08E749A1B6805FCE</string>
+				<string>4BA6109BA3E443E7956852F4</string>
+				<string>3CBCD5FAD9E14F8FB7424792</string>
+				<string>9336275FAC0E4FE5907CAA1F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F20CAC64FB034DF9A64C0B61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>382F4FBA2F4841AAA33F2C20</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc</string>
+			</dict>
+		</dict>
+		<key>F30A4BA1E74141D88D1278FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B1A972D743F746A89AF00B4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F6103B8C9BB447629B60ECE1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>01D50009B8BB4053BFA8EDAB</string>
+			<key>targetProxy</key>
+			<string>F7B20DFB3B874400817E53EF</string>
+		</dict>
+		<key>F7B20DFB3B874400817E53EF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>CB5DF5EA9D8848DABB9BF56D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>01D50009B8BB4053BFA8EDAB</string>
+			<key>remoteInfo</key>
+			<string>Pods-PhyreKit-PhyreKit</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>CB5DF5EA9D8848DABB9BF56D</string>
+</dict>
+</plist>
