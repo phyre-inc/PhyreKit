@@ -8,7 +8,7 @@
 
 #import "NSString+PhyreKit.h"
 
-BOOL PHYEmptyString(NSString *str)
+BOOL PHYStringIsEmpty(NSString *str)
 {
 	if (!str || (id)str == [NSNull null]) {
 		return YES;

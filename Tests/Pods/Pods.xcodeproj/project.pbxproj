@@ -7,313 +7,318 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0162448A8C2243C7920C138E /* PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D3ECFCA96F0549E7A71E3EA2 /* PhyreKit.h */; };
-		02E831BCBEFA4EA99BBCABC3 /* NSDictionary+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB5737E73A8413790EAC1B8 /* NSDictionary+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		0E09C404566643999E6F8839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647F037C60FD46519F5428FD /* Foundation.framework */; };
-		0E394DBBCB5C49629C87A798 /* Pods-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24F51C857A4F8C8EEACA2A /* Pods-PhyreKit-dummy.m */; };
-		106AFBBD56FD479181038C4D /* UIImage+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AFB4B9B9F486798AED026 /* UIImage+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		1E264423EEE84B7196D0E248 /* CLLocation+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F61EECE665444AE8468003A /* CLLocation+PhyreKit.h */; };
-		1F77C0B4413F478D9F2BC17F /* UIColor+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 5338294988E2432E9BCB0786 /* UIColor+Expanded.h */; };
-		3749CE20B7E548CEAEC2D339 /* PHYConstantsAndMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAB7D499ADA4274A25DAF27 /* PHYConstantsAndMacros.h */; };
-		4695E21911444F74B4BEC7CF /* UIViewController+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6FC3930F784844BCB51B31 /* UIViewController+PhyreKit.h */; };
-		4BEE8CF31B6D41D9B6CED430 /* NSAttributedString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4B1F503CED4AA49DFEF7DD /* NSAttributedString+PhyreKit.h */; };
-		4E3A9C7F10994B41AE22D4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647F037C60FD46519F5428FD /* Foundation.framework */; };
-		51FF625CD3A14F98BF60E504 /* libPods-PhyreKit-PhyreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBA85E656AC4D54902D28D6 /* libPods-PhyreKit-PhyreKit.a */; };
-		56DA77C5657E48468B7702A9 /* UIImage+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8AFCE6F18A4258B936A09F /* UIImage+PhyreKit.h */; };
-		5D287CA6E3864CC28EFBEC0A /* NSArray+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D39CD54C8AF4444DA5FA50A3 /* NSArray+PhyreKit.h */; };
-		5D4EAB540F3144D28796ECA0 /* CLLocation+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E2B81A268041618DA016AE /* CLLocation+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		65C8632008524766A249AAD8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56AAD5C656C41DEB1F6132A /* CoreLocation.framework */; };
-		6B8FB9008D7F40EE8F2F941A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A314DC47702F441F90F764C9 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		7BD6F98A81CB465D90004CFC /* NSAttributedString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E8715562F4A04FE8B5C8638E /* NSAttributedString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		7E148679E1074F2DAB3767B9 /* NSArray+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3A2F43B7574FCC945FEB37 /* NSArray+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		8091F8828A7D44338AC829AA /* NSCache+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 383C333C0F144E9796B5431F /* NSCache+PhyreKit.h */; };
-		883F018535D2448293CE51C7 /* UIFont+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDADC99D06741A99DE8AA4C /* UIFont+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		89770A938C1B4CB69776FC68 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C400C1BC0044A1E98D86FE5 /* UIColor+Expanded.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		8C795ECA40AC40A9BB9E196C /* NSString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5511B89586954A55A6A32D27 /* NSString+PhyreKit.h */; };
-		B7267A609AAA474787A6E541 /* NSCache+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B27F365194D48D1A5BFA149 /* NSCache+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		BF3A5A83EF4E4A048FCF5C55 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C56A3B2EFB642C5BCE31C0F /* UIImage+ImageEffects.h */; };
-		DDC1E76B00C14554841AB6E2 /* UIFont+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 208FFDB8871E44D0B073E4FC /* UIFont+PhyreKit.h */; };
-		E5A41F655958487E945F9421 /* NSObject+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E7D50A47EC47B8BD3FE565 /* NSObject+PhyreKit.h */; };
-		EF61E635B3DC4FABA3EBEF33 /* NSObject+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB460B2E48F24FC88FC4D45F /* NSObject+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F0226758C6D241EDA1877B01 /* NSString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FFEAA716C4B549E19F8A8 /* NSString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F36ABB056960476D905F427F /* NSDictionary+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFEE04BDCD34638BF07CD3A /* NSDictionary+PhyreKit.h */; };
-		F8EDF765DEA24F799918CAAA /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1782F6D4198A4351B6E50663 /* Pods-PhyreKit-PhyreKit-dummy.m */; };
-		FC7D65AC495F4780B5C02A89 /* UIViewController+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B1885DB3FA48778973875C /* UIViewController+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		11123FF8065C4E0299574F97 /* UIFont+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		182E77E19D8C484E8A573133 /* NSString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD77D139A56441C975388DA /* NSString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1ABD1E1C6F0C49268D4D2136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6231E6E5C88B4500A7E5997C /* Foundation.framework */; };
+		1BFE2527A56D47F285FD3616 /* PHYConstantsAndMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1E2159AE4FF14AF6A48287F5 /* Pods-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */; };
+		23C748650D3C451BAC2DAF06 /* NSArray+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		26685DA779984767A794C024 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2BD7B55E5A2E4DD18ADF9AA6 /* UIImage+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */; };
+		31E665B0F7C344A3AEDD4849 /* CLLocation+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */; };
+		5AA90ACF7F014DEAA9F0A977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6231E6E5C88B4500A7E5997C /* Foundation.framework */; };
+		60C3A4BCE3E4410F82544F8A /* PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BF7A45ABAF4D97AD38119F /* PhyreKit.h */; };
+		637574E5A1274BF9BC4BF92E /* NSDictionary+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6DEBC9C4D2BF41D79C7B90E1 /* NSDictionary+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */; };
+		6F5A306B5EC04F5C9D063602 /* UIImage+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		725DD49901D24D0EBF0FBB7E /* UIFont+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */; };
+		77516AC8412A48ABAD18C62C /* UIView+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */; };
+		7D22CAD456B44C819EED9926 /* NSCache+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */; };
+		82826EE468EE4463A8DA0705 /* libPods-PhyreKit-PhyreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */; };
+		850D0AD005FB455F8E5E2B64 /* NSCache+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8B5E9CE8D73F447CB5C0100E /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */; };
+		919A09542F604499B3F4FD44 /* PHYConstantsAndMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */; };
+		9303C014D82C4D9AA16D3302 /* NSArray+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */; };
+		9F263743953B4702999BD11F /* NSObject+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */; };
+		9FFF8974C6D94B09B3AC4E20 /* NSAttributedString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */; };
+		A86BB5AD7D104F8B8CBB8EAE /* UIViewController+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 970611408338468E8065FE5E /* UIViewController+PhyreKit.h */; };
+		A8A96398EA864AECA62D9619 /* NSAttributedString+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B522E6F4D4014DD4834CAA32 /* NSString+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */; };
+		B60785A91C574780B0DDA532 /* NSObject+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B6CA35B57DEB4B68A706283F /* UIView+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C95DCEE185484CE8A18660B0 /* UIColor+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = 424DA347D0F841C0A544A80E /* UIColor+Expanded.h */; };
+		C9A3F3C21937D1F30061587D /* NSError+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */; };
+		C9A3F3C31937D1F30061587D /* NSError+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */; };
+		C9A3F3C61937D28C0061587D /* UIAlertView+PhyreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */; };
+		C9A3F3C71937D28C0061587D /* UIAlertView+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */; };
+		CA4ACB8E352F4C529FF3F8B2 /* CLLocation+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CAE8E9FEB3AB4251A48C014A /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EFCB2E0647994407B4F042C5 /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */; };
+		FAB189CA0DF24F499327777F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */; };
+		FF62CC3E94B043F5BE03AC57 /* UIViewController+PhyreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		56747A80E7B647CCA5166178 /* PBXContainerItemProxy */ = {
+		0163EDA637DD4285A71F76EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CB0E74610EE54A9E9E2F8455 /* Project object */;
+			containerPortal = F1859609F406482383D34587 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2DF5142D6914469896C068E2;
+			remoteGlobalIDString = 7E15C586F99849ADAAD62A97;
 			remoteInfo = "Pods-PhyreKit-PhyreKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DDEA6F16D443F8AE06A1C1 /* Pods-PhyreKit-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit.xcconfig"; sourceTree = "<group>"; };
-		07B22198BE914042AFAB5D00 /* Pods-PhyreKit-PhyreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-PhyreKit-prefix.pch"; sourceTree = "<group>"; };
-		1782F6D4198A4351B6E50663 /* Pods-PhyreKit-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-PhyreKit-dummy.m"; sourceTree = "<group>"; };
-		1D05BF5C06FD44B2B04C033F /* Pods-PhyreKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhyreKit-resources.sh"; sourceTree = "<group>"; };
-		208FFDB8871E44D0B073E4FC /* UIFont+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+PhyreKit.h"; path = "Classes/UIKit/UIFont+PhyreKit.h"; sourceTree = "<group>"; };
-		24E7D50A47EC47B8BD3FE565 /* NSObject+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PhyreKit.h"; path = "Classes/Foundation/NSObject+PhyreKit.h"; sourceTree = "<group>"; };
-		2F61EECE665444AE8468003A /* CLLocation+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+PhyreKit.h"; path = "Classes/CoreLocation/CLLocation+PhyreKit.h"; sourceTree = "<group>"; };
-		2FB5737E73A8413790EAC1B8 /* NSDictionary+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PhyreKit.m"; path = "Classes/Foundation/NSDictionary+PhyreKit.m"; sourceTree = "<group>"; };
-		383C333C0F144E9796B5431F /* NSCache+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+PhyreKit.h"; path = "Classes/Foundation/NSCache+PhyreKit.h"; sourceTree = "<group>"; };
-		3A6FC3930F784844BCB51B31 /* UIViewController+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PhyreKit.h"; path = "Classes/UIKit/UIViewController+PhyreKit.h"; sourceTree = "<group>"; };
-		3E8AFB4B9B9F486798AED026 /* UIImage+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PhyreKit.m"; path = "Classes/UIKit/UIImage+PhyreKit.m"; sourceTree = "<group>"; };
-		4A4B1F503CED4AA49DFEF7DD /* NSAttributedString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+PhyreKit.h"; path = "Classes/Foundation/NSAttributedString+PhyreKit.h"; sourceTree = "<group>"; };
-		4F3A2F43B7574FCC945FEB37 /* NSArray+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PhyreKit.m"; path = "Classes/Foundation/NSArray+PhyreKit.m"; sourceTree = "<group>"; };
-		508E2856E7434B93861B36EA /* Pods-PhyreKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhyreKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5338294988E2432E9BCB0786 /* UIColor+Expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Expanded.h"; path = "Classes/Vendor/UIColor+Expanded.h"; sourceTree = "<group>"; };
-		5511B89586954A55A6A32D27 /* NSString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PhyreKit.h"; path = "Classes/Foundation/NSString+PhyreKit.h"; sourceTree = "<group>"; };
-		5C400C1BC0044A1E98D86FE5 /* UIColor+Expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Expanded.m"; path = "Classes/Vendor/UIColor+Expanded.m"; sourceTree = "<group>"; };
-		63F092F161BB4C17876D8DCC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		647F037C60FD46519F5428FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B27F365194D48D1A5BFA149 /* NSCache+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+PhyreKit.m"; path = "Classes/Foundation/NSCache+PhyreKit.m"; sourceTree = "<group>"; };
-		7BBA85E656AC4D54902D28D6 /* libPods-PhyreKit-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D24F51C857A4F8C8EEACA2A /* Pods-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-dummy.m"; sourceTree = "<group>"; };
-		806FFEAA716C4B549E19F8A8 /* NSString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PhyreKit.m"; path = "Classes/Foundation/NSString+PhyreKit.m"; sourceTree = "<group>"; };
-		8C56A3B2EFB642C5BCE31C0F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/Vendor/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		91B1885DB3FA48778973875C /* UIViewController+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PhyreKit.m"; path = "Classes/UIKit/UIViewController+PhyreKit.m"; sourceTree = "<group>"; };
-		9BAB7D499ADA4274A25DAF27 /* PHYConstantsAndMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHYConstantsAndMacros.h; path = Classes/PHYConstantsAndMacros.h; sourceTree = "<group>"; };
-		A314DC47702F441F90F764C9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/Vendor/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		AB460B2E48F24FC88FC4D45F /* NSObject+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhyreKit.m"; path = "Classes/Foundation/NSObject+PhyreKit.m"; sourceTree = "<group>"; };
-		ABDD1E55FE6348749C0D8952 /* Pods-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit.xcconfig"; sourceTree = "<group>"; };
-		AECFD11AB86A42EA8972AE50 /* Pods-PhyreKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-environment.h"; sourceTree = "<group>"; };
-		B1E0EBC606F04EE990DDC094 /* Pods-PhyreKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhyreKit-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2E49E0BA7314E858129A482 /* libPods-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC8AFCE6F18A4258B936A09F /* UIImage+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PhyreKit.h"; path = "Classes/UIKit/UIImage+PhyreKit.h"; sourceTree = "<group>"; };
-		C8E2B81A268041618DA016AE /* CLLocation+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+PhyreKit.m"; path = "Classes/CoreLocation/CLLocation+PhyreKit.m"; sourceTree = "<group>"; };
-		C94D697E190983B30072DCE3 /* PHYConstantsAndMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PHYConstantsAndMacros.m; path = Classes/PHYConstantsAndMacros.m; sourceTree = "<group>"; };
-		D39CD54C8AF4444DA5FA50A3 /* NSArray+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PhyreKit.h"; path = "Classes/Foundation/NSArray+PhyreKit.h"; sourceTree = "<group>"; };
-		D3ECFCA96F0549E7A71E3EA2 /* PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhyreKit.h; path = Classes/PhyreKit.h; sourceTree = "<group>"; };
-		DEFEE04BDCD34638BF07CD3A /* NSDictionary+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PhyreKit.h"; path = "Classes/Foundation/NSDictionary+PhyreKit.h"; sourceTree = "<group>"; };
-		E8038D1FB4724BF38D3FB6FB /* Pods-PhyreKit-PhyreKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit-Private.xcconfig"; sourceTree = "<group>"; };
-		E8715562F4A04FE8B5C8638E /* NSAttributedString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+PhyreKit.m"; path = "Classes/Foundation/NSAttributedString+PhyreKit.m"; sourceTree = "<group>"; };
-		F56AAD5C656C41DEB1F6132A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		FBDADC99D06741A99DE8AA4C /* UIFont+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+PhyreKit.m"; path = "Classes/UIKit/UIFont+PhyreKit.m"; sourceTree = "<group>"; };
+		0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+PhyreKit.m"; path = "Classes/Foundation/NSCache+PhyreKit.m"; sourceTree = "<group>"; };
+		1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit.xcconfig"; sourceTree = "<group>"; };
+		1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/Vendor/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-PhyreKit-dummy.m"; sourceTree = "<group>"; };
+		21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PhyreKit.h"; path = "Classes/Foundation/NSObject+PhyreKit.h"; sourceTree = "<group>"; };
+		26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PhyreKit.m"; path = "Classes/UIKit/UIView+PhyreKit.m"; sourceTree = "<group>"; };
+		29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+PhyreKit.m"; path = "Classes/UIKit/UIFont+PhyreKit.m"; sourceTree = "<group>"; };
+		3606B15C0086412ABD43EC6E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4072A91392404F2081505B87 /* libPods-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424DA347D0F841C0A544A80E /* UIColor+Expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Expanded.h"; path = "Classes/Vendor/UIColor+Expanded.h"; sourceTree = "<group>"; };
+		4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PhyreKit.h"; path = "Classes/UIKit/UIView+PhyreKit.h"; sourceTree = "<group>"; };
+		4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PhyreKit.m"; path = "Classes/Foundation/NSDictionary+PhyreKit.m"; sourceTree = "<group>"; };
+		49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+PhyreKit.m"; path = "Classes/CoreLocation/CLLocation+PhyreKit.m"; sourceTree = "<group>"; };
+		4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		59BF7A45ABAF4D97AD38119F /* PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhyreKit.h; path = Classes/PhyreKit.h; sourceTree = "<group>"; };
+		5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PhyreKit.m"; path = "Classes/Foundation/NSArray+PhyreKit.m"; sourceTree = "<group>"; };
+		5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhyreKit.m"; path = "Classes/Foundation/NSObject+PhyreKit.m"; sourceTree = "<group>"; };
+		6231E6E5C88B4500A7E5997C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+PhyreKit.m"; path = "Classes/Foundation/NSAttributedString+PhyreKit.m"; sourceTree = "<group>"; };
+		649BB2C3178E4D9BA9C8B522 /* Pods-PhyreKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhyreKit-resources.sh"; sourceTree = "<group>"; };
+		6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+PhyreKit.h"; path = "Classes/Foundation/NSAttributedString+PhyreKit.h"; sourceTree = "<group>"; };
+		6607460118834D3B8903F6C8 /* Pods-PhyreKit-PhyreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit.xcconfig"; sourceTree = "<group>"; };
+		6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PhyreKit.h"; path = "Classes/Foundation/NSArray+PhyreKit.h"; sourceTree = "<group>"; };
+		6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit-Private.xcconfig"; sourceTree = "<group>"; };
+		74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PhyreKit.h"; path = "Classes/Foundation/NSDictionary+PhyreKit.h"; sourceTree = "<group>"; };
+		764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHYConstantsAndMacros.h; path = Classes/PHYConstantsAndMacros.h; sourceTree = "<group>"; };
+		76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PhyreKit.m"; path = "Classes/UIKit/UIImage+PhyreKit.m"; sourceTree = "<group>"; };
+		7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHYConstantsAndMacros.m; path = Classes/PHYConstantsAndMacros.m; sourceTree = "<group>"; };
+		7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+PhyreKit.h"; path = "Classes/Foundation/NSCache+PhyreKit.h"; sourceTree = "<group>"; };
+		7E15282FA96F4E39B7666B79 /* Pods-PhyreKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhyreKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		970611408338468E8065FE5E /* UIViewController+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PhyreKit.h"; path = "Classes/UIKit/UIViewController+PhyreKit.h"; sourceTree = "<group>"; };
+		A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PhyreKit.h"; path = "Classes/Foundation/NSString+PhyreKit.h"; sourceTree = "<group>"; };
+		AF3511564A774C49B4179EB3 /* Pods-PhyreKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-environment.h"; sourceTree = "<group>"; };
+		AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+PhyreKit.h"; path = "Classes/UIKit/UIFont+PhyreKit.h"; sourceTree = "<group>"; };
+		BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PhyreKit.m"; path = "Classes/UIKit/UIViewController+PhyreKit.m"; sourceTree = "<group>"; };
+		BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-dummy.m"; sourceTree = "<group>"; };
+		C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PhyreKit.h"; path = "Classes/UIKit/UIImage+PhyreKit.h"; sourceTree = "<group>"; };
+		C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+PhyreKit.h"; path = "Classes/Foundation/NSError+PhyreKit.h"; sourceTree = "<group>"; };
+		C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+PhyreKit.m"; path = "Classes/Foundation/NSError+PhyreKit.m"; sourceTree = "<group>"; };
+		C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+PhyreKit.h"; path = "Classes/UIKit/UIAlertView+PhyreKit.h"; sourceTree = "<group>"; };
+		C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+PhyreKit.m"; path = "Classes/UIKit/UIAlertView+PhyreKit.m"; sourceTree = "<group>"; };
+		DBD77D139A56441C975388DA /* NSString+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PhyreKit.m"; path = "Classes/Foundation/NSString+PhyreKit.m"; sourceTree = "<group>"; };
+		E2E5D81D490E494AA6F6F741 /* Pods-PhyreKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhyreKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhyreKit-PhyreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Expanded.m"; path = "Classes/Vendor/UIColor+Expanded.m"; sourceTree = "<group>"; };
+		F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/Vendor/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		F5737B052AF0432290FC394F /* Pods-PhyreKit-PhyreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhyreKit-PhyreKit-prefix.pch"; sourceTree = "<group>"; };
+		FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+PhyreKit.h"; path = "Classes/CoreLocation/CLLocation+PhyreKit.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3ED7BE086F5445ABBA4C36B1 /* Frameworks */ = {
+		044F17C467D54F0981654411 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C8632008524766A249AAD8 /* CoreLocation.framework in Frameworks */,
-				4E3A9C7F10994B41AE22D4BC /* Foundation.framework in Frameworks */,
+				1ABD1E1C6F0C49268D4D2136 /* Foundation.framework in Frameworks */,
+				82826EE468EE4463A8DA0705 /* libPods-PhyreKit-PhyreKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B47ED0BFBB84323AB126C9F /* Frameworks */ = {
+		C7E00669682548F0829832D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E09C404566643999E6F8839 /* Foundation.framework in Frameworks */,
-				51FF625CD3A14F98BF60E504 /* libPods-PhyreKit-PhyreKit.a in Frameworks */,
+				FAB189CA0DF24F499327777F /* CoreLocation.framework in Frameworks */,
+				5AA90ACF7F014DEAA9F0A977 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16950E8766E8483796126598 /* Pods-PhyreKit */ = {
+		1418606A2BED42999F34C432 /* CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
-				ABDD1E55FE6348749C0D8952 /* Pods-PhyreKit.xcconfig */,
-				508E2856E7434B93861B36EA /* Pods-PhyreKit-acknowledgements.markdown */,
-				B1E0EBC606F04EE990DDC094 /* Pods-PhyreKit-acknowledgements.plist */,
-				7D24F51C857A4F8C8EEACA2A /* Pods-PhyreKit-dummy.m */,
-				AECFD11AB86A42EA8972AE50 /* Pods-PhyreKit-environment.h */,
-				1D05BF5C06FD44B2B04C033F /* Pods-PhyreKit-resources.sh */,
+				FB641887402E446B896C8EF0 /* CLLocation+PhyreKit.h */,
+				49FE9295A703498F93052A64 /* CLLocation+PhyreKit.m */,
 			);
-			name = "Pods-PhyreKit";
+			name = CoreLocation;
 			sourceTree = "<group>";
 		};
-		1DC14908ADFB45ABBD9AA2ED /* Development Pods */ = {
+		1F8D004CBD194769A8A1A00C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				598368DC98BB4AFAA34ECDD1 /* PhyreKit */,
+				4AD7FD9B00DA44ABA0CD8FA9 /* CoreLocation.framework */,
+				6231E6E5C88B4500A7E5997C /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		31F5932179854EF6BFEEE84C /* Foundation */ = {
+		2FC95781925543A8980C4613 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D39CD54C8AF4444DA5FA50A3 /* NSArray+PhyreKit.h */,
-				4F3A2F43B7574FCC945FEB37 /* NSArray+PhyreKit.m */,
-				4A4B1F503CED4AA49DFEF7DD /* NSAttributedString+PhyreKit.h */,
-				E8715562F4A04FE8B5C8638E /* NSAttributedString+PhyreKit.m */,
-				383C333C0F144E9796B5431F /* NSCache+PhyreKit.h */,
-				7B27F365194D48D1A5BFA149 /* NSCache+PhyreKit.m */,
-				DEFEE04BDCD34638BF07CD3A /* NSDictionary+PhyreKit.h */,
-				2FB5737E73A8413790EAC1B8 /* NSDictionary+PhyreKit.m */,
-				24E7D50A47EC47B8BD3FE565 /* NSObject+PhyreKit.h */,
-				AB460B2E48F24FC88FC4D45F /* NSObject+PhyreKit.m */,
-				5511B89586954A55A6A32D27 /* NSString+PhyreKit.h */,
-				806FFEAA716C4B549E19F8A8 /* NSString+PhyreKit.m */,
+				4072A91392404F2081505B87 /* libPods-PhyreKit.a */,
+				E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */,
 			);
-			name = Foundation;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		3809BAD9534A487D9BB3E017 /* Targets Support Files */ = {
+		52C1DBC7532C4CEBB7FA8B35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16950E8766E8483796126598 /* Pods-PhyreKit */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4BC294AB181C4CD8A8AFCB77 = {
-			isa = PBXGroup;
-			children = (
-				63F092F161BB4C17876D8DCC /* Podfile */,
-				1DC14908ADFB45ABBD9AA2ED /* Development Pods */,
-				A96C2D24897A4903B49C7B72 /* Frameworks */,
-				59D326474A8F43E280170559 /* Products */,
-				3809BAD9534A487D9BB3E017 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		59087135CD0D483CA0A0CB94 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				03DDEA6F16D443F8AE06A1C1 /* Pods-PhyreKit-PhyreKit.xcconfig */,
-				E8038D1FB4724BF38D3FB6FB /* Pods-PhyreKit-PhyreKit-Private.xcconfig */,
-				1782F6D4198A4351B6E50663 /* Pods-PhyreKit-PhyreKit-dummy.m */,
-				07B22198BE914042AFAB5D00 /* Pods-PhyreKit-PhyreKit-prefix.pch */,
+				6607460118834D3B8903F6C8 /* Pods-PhyreKit-PhyreKit.xcconfig */,
+				6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */,
+				1990C301524840818FFEEAAD /* Pods-PhyreKit-PhyreKit-dummy.m */,
+				F5737B052AF0432290FC394F /* Pods-PhyreKit-PhyreKit-prefix.pch */,
 			);
 			name = "Support Files";
 			sourceTree = SOURCE_ROOT;
 		};
-		598368DC98BB4AFAA34ECDD1 /* PhyreKit */ = {
+		625FDA29C4904E7AAD543DAF /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				D3ECFCA96F0549E7A71E3EA2 /* PhyreKit.h */,
-				9BAB7D499ADA4274A25DAF27 /* PHYConstantsAndMacros.h */,
-				C94D697E190983B30072DCE3 /* PHYConstantsAndMacros.m */,
-				9A93A50F3CE74FA68DB12500 /* CoreLocation */,
-				31F5932179854EF6BFEEE84C /* Foundation */,
-				59087135CD0D483CA0A0CB94 /* Support Files */,
-				90DDD18E21F7423DA695F8E4 /* UIKit */,
-				A9310A361A024C0E8F09422F /* Vendor */,
+				AF3FB08CD29D4408AD7A5BBF /* UIFont+PhyreKit.h */,
+				29A305EA531B46A991A2D191 /* UIFont+PhyreKit.m */,
+				C56A15CFB57C46C0953FDF55 /* UIImage+PhyreKit.h */,
+				76F428EC1E6B409F872A1F21 /* UIImage+PhyreKit.m */,
+				4313B4EEC706496AB8051E68 /* UIView+PhyreKit.h */,
+				26777068BAAC49A6A5A827E6 /* UIView+PhyreKit.m */,
+				970611408338468E8065FE5E /* UIViewController+PhyreKit.h */,
+				BC11A592F7BF4DFBA518BF88 /* UIViewController+PhyreKit.m */,
+				C9A3F3C41937D28C0061587D /* UIAlertView+PhyreKit.h */,
+				C9A3F3C51937D28C0061587D /* UIAlertView+PhyreKit.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6352DA87A1444C4B90BD3219 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98311AB7DDAB419EABB59490 /* PhyreKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		888348888EB749CE91B89941 = {
+			isa = PBXGroup;
+			children = (
+				3606B15C0086412ABD43EC6E /* Podfile */,
+				6352DA87A1444C4B90BD3219 /* Development Pods */,
+				EA47A241AE94451CB0B63DD2 /* Frameworks */,
+				2FC95781925543A8980C4613 /* Products */,
+				8D9C02E2C12C408B994B0B4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9870A26C1E40A88FFC7BF9 /* Pods-PhyreKit */ = {
+			isa = PBXGroup;
+			children = (
+				1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */,
+				E2E5D81D490E494AA6F6F741 /* Pods-PhyreKit-acknowledgements.markdown */,
+				7E15282FA96F4E39B7666B79 /* Pods-PhyreKit-acknowledgements.plist */,
+				BDF825F3C77745748CF5C3ED /* Pods-PhyreKit-dummy.m */,
+				AF3511564A774C49B4179EB3 /* Pods-PhyreKit-environment.h */,
+				649BB2C3178E4D9BA9C8B522 /* Pods-PhyreKit-resources.sh */,
+			);
+			name = "Pods-PhyreKit";
+			sourceTree = "<group>";
+		};
+		8D9C02E2C12C408B994B0B4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A9870A26C1E40A88FFC7BF9 /* Pods-PhyreKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		98311AB7DDAB419EABB59490 /* PhyreKit */ = {
+			isa = PBXGroup;
+			children = (
+				764F86DD18A1425CB5963885 /* PHYConstantsAndMacros.h */,
+				7A2294AD58B14E6CB350B9D2 /* PHYConstantsAndMacros.m */,
+				59BF7A45ABAF4D97AD38119F /* PhyreKit.h */,
+				1418606A2BED42999F34C432 /* CoreLocation */,
+				FC515ACB842B48DD96FB843F /* Foundation */,
+				52C1DBC7532C4CEBB7FA8B35 /* Support Files */,
+				625FDA29C4904E7AAD543DAF /* UIKit */,
+				D3A10EED01934C55BA9ECA9F /* Vendor */,
 			);
 			name = PhyreKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		59D326474A8F43E280170559 /* Products */ = {
+		D3A10EED01934C55BA9ECA9F /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				B2E49E0BA7314E858129A482 /* libPods-PhyreKit.a */,
-				7BBA85E656AC4D54902D28D6 /* libPods-PhyreKit-PhyreKit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		90DDD18E21F7423DA695F8E4 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				208FFDB8871E44D0B073E4FC /* UIFont+PhyreKit.h */,
-				FBDADC99D06741A99DE8AA4C /* UIFont+PhyreKit.m */,
-				BC8AFCE6F18A4258B936A09F /* UIImage+PhyreKit.h */,
-				3E8AFB4B9B9F486798AED026 /* UIImage+PhyreKit.m */,
-				3A6FC3930F784844BCB51B31 /* UIViewController+PhyreKit.h */,
-				91B1885DB3FA48778973875C /* UIViewController+PhyreKit.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		9A93A50F3CE74FA68DB12500 /* CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-				2F61EECE665444AE8468003A /* CLLocation+PhyreKit.h */,
-				C8E2B81A268041618DA016AE /* CLLocation+PhyreKit.m */,
-			);
-			name = CoreLocation;
-			sourceTree = "<group>";
-		};
-		A9310A361A024C0E8F09422F /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				5338294988E2432E9BCB0786 /* UIColor+Expanded.h */,
-				5C400C1BC0044A1E98D86FE5 /* UIColor+Expanded.m */,
-				8C56A3B2EFB642C5BCE31C0F /* UIImage+ImageEffects.h */,
-				A314DC47702F441F90F764C9 /* UIImage+ImageEffects.m */,
+				424DA347D0F841C0A544A80E /* UIColor+Expanded.h */,
+				E752C69638BE432FB9C6CC02 /* UIColor+Expanded.m */,
+				1405266AC0A44F188CB84A1F /* UIImage+ImageEffects.h */,
+				F4196DD1ABFF496382A98700 /* UIImage+ImageEffects.m */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
 		};
-		A96C2D24897A4903B49C7B72 /* Frameworks */ = {
+		EA47A241AE94451CB0B63DD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0661BE66E1E43168AA7E0C1 /* iOS */,
+				1F8D004CBD194769A8A1A00C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0661BE66E1E43168AA7E0C1 /* iOS */ = {
+		FC515ACB842B48DD96FB843F /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				F56AAD5C656C41DEB1F6132A /* CoreLocation.framework */,
-				647F037C60FD46519F5428FD /* Foundation.framework */,
+				6733B0073C7446AEB54F0C68 /* NSArray+PhyreKit.h */,
+				5B0784FA2ED544259E769203 /* NSArray+PhyreKit.m */,
+				6529297A4D2348CE9E9A41DA /* NSAttributedString+PhyreKit.h */,
+				63CC69174F23477DA45443A4 /* NSAttributedString+PhyreKit.m */,
+				7A4A39E891C342FC82C46C47 /* NSCache+PhyreKit.h */,
+				0D32372D7D6D48D093DAE8D1 /* NSCache+PhyreKit.m */,
+				74DEFBCC39354FA08EC84805 /* NSDictionary+PhyreKit.h */,
+				4358F8114C9747328D496FFE /* NSDictionary+PhyreKit.m */,
+				21A944E41E534C61B1C9A112 /* NSObject+PhyreKit.h */,
+				5EDEDE52B9AF4E64A5E346B3 /* NSObject+PhyreKit.m */,
+				A24DAD0E73B74767B8ABFE9C /* NSString+PhyreKit.h */,
+				DBD77D139A56441C975388DA /* NSString+PhyreKit.m */,
+				C9A3F3C01937D1F30061587D /* NSError+PhyreKit.h */,
+				C9A3F3C11937D1F30061587D /* NSError+PhyreKit.m */,
 			);
-			name = iOS;
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		494C6F50185346FA96DC90AB /* Headers */ = {
+		B3F2DED9BA634E1DB90A8E99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E264423EEE84B7196D0E248 /* CLLocation+PhyreKit.h in Headers */,
-				5D287CA6E3864CC28EFBEC0A /* NSArray+PhyreKit.h in Headers */,
-				4BEE8CF31B6D41D9B6CED430 /* NSAttributedString+PhyreKit.h in Headers */,
-				8091F8828A7D44338AC829AA /* NSCache+PhyreKit.h in Headers */,
-				F36ABB056960476D905F427F /* NSDictionary+PhyreKit.h in Headers */,
-				E5A41F655958487E945F9421 /* NSObject+PhyreKit.h in Headers */,
-				8C795ECA40AC40A9BB9E196C /* NSString+PhyreKit.h in Headers */,
-				3749CE20B7E548CEAEC2D339 /* PHYConstantsAndMacros.h in Headers */,
-				0162448A8C2243C7920C138E /* PhyreKit.h in Headers */,
-				1F77C0B4413F478D9F2BC17F /* UIColor+Expanded.h in Headers */,
-				DDC1E76B00C14554841AB6E2 /* UIFont+PhyreKit.h in Headers */,
-				BF3A5A83EF4E4A048FCF5C55 /* UIImage+ImageEffects.h in Headers */,
-				56DA77C5657E48468B7702A9 /* UIImage+PhyreKit.h in Headers */,
-				4695E21911444F74B4BEC7CF /* UIViewController+PhyreKit.h in Headers */,
+				31E665B0F7C344A3AEDD4849 /* CLLocation+PhyreKit.h in Headers */,
+				9303C014D82C4D9AA16D3302 /* NSArray+PhyreKit.h in Headers */,
+				9FFF8974C6D94B09B3AC4E20 /* NSAttributedString+PhyreKit.h in Headers */,
+				7D22CAD456B44C819EED9926 /* NSCache+PhyreKit.h in Headers */,
+				6DEBC9C4D2BF41D79C7B90E1 /* NSDictionary+PhyreKit.h in Headers */,
+				9F263743953B4702999BD11F /* NSObject+PhyreKit.h in Headers */,
+				B522E6F4D4014DD4834CAA32 /* NSString+PhyreKit.h in Headers */,
+				919A09542F604499B3F4FD44 /* PHYConstantsAndMacros.h in Headers */,
+				60C3A4BCE3E4410F82544F8A /* PhyreKit.h in Headers */,
+				C95DCEE185484CE8A18660B0 /* UIColor+Expanded.h in Headers */,
+				725DD49901D24D0EBF0FBB7E /* UIFont+PhyreKit.h in Headers */,
+				8B5E9CE8D73F447CB5C0100E /* UIImage+ImageEffects.h in Headers */,
+				2BD7B55E5A2E4DD18ADF9AA6 /* UIImage+PhyreKit.h in Headers */,
+				77516AC8412A48ABAD18C62C /* UIView+PhyreKit.h in Headers */,
+				C9A3F3C21937D1F30061587D /* NSError+PhyreKit.h in Headers */,
+				C9A3F3C61937D28C0061587D /* UIAlertView+PhyreKit.h in Headers */,
+				A86BB5AD7D104F8B8CBB8EAE /* UIViewController+PhyreKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E2F49EE43604E8297EF0105 /* Pods-PhyreKit */ = {
+		7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA47B1E2F91A41128E40F8EE /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */;
+			buildConfigurationList = 24154731078244C692A8733A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */;
 			buildPhases = (
-				86B6A69A43844DC596CE3CE9 /* Sources */,
-				5B47ED0BFBB84323AB126C9F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FC210EB409664776840DDE54 /* PBXTargetDependency */,
-			);
-			name = "Pods-PhyreKit";
-			productName = "Pods-PhyreKit";
-			productReference = B2E49E0BA7314E858129A482 /* libPods-PhyreKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2DF5142D6914469896C068E2 /* Pods-PhyreKit-PhyreKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1376132AA5249868C96C10A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */;
-			buildPhases = (
-				59DFD714A1CA49BCB1F2CBB7 /* Sources */,
-				3ED7BE086F5445ABBA4C36B1 /* Frameworks */,
-				494C6F50185346FA96DC90AB /* Headers */,
+				CC3416EA380A4CF39EF09461 /* Sources */,
+				C7E00669682548F0829832D4 /* Frameworks */,
+				B3F2DED9BA634E1DB90A8E99 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -321,105 +326,99 @@
 			);
 			name = "Pods-PhyreKit-PhyreKit";
 			productName = "Pods-PhyreKit-PhyreKit";
-			productReference = 7BBA85E656AC4D54902D28D6 /* libPods-PhyreKit-PhyreKit.a */;
+			productReference = E7113F4A85AE4A3C8D883E3A /* libPods-PhyreKit-PhyreKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1602B17D3644D07BBDFB737 /* Pods-PhyreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C7DEAE29CE4945AC620644 /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */;
+			buildPhases = (
+				831CAB17A2864E88AB557DD7 /* Sources */,
+				044F17C467D54F0981654411 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85078E06DE64293A4FE1DC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-PhyreKit";
+			productName = "Pods-PhyreKit";
+			productReference = 4072A91392404F2081505B87 /* libPods-PhyreKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB0E74610EE54A9E9E2F8455 /* Project object */ = {
+		F1859609F406482383D34587 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 7171AD91421B498FBE1084EF /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = D26BF528DF734035A7072FC7 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4BC294AB181C4CD8A8AFCB77;
-			productRefGroup = 59D326474A8F43E280170559 /* Products */;
+			mainGroup = 888348888EB749CE91B89941;
+			productRefGroup = 2FC95781925543A8980C4613 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E2F49EE43604E8297EF0105 /* Pods-PhyreKit */,
-				2DF5142D6914469896C068E2 /* Pods-PhyreKit-PhyreKit */,
+				B1602B17D3644D07BBDFB737 /* Pods-PhyreKit */,
+				7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		59DFD714A1CA49BCB1F2CBB7 /* Sources */ = {
+		831CAB17A2864E88AB557DD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D4EAB540F3144D28796ECA0 /* CLLocation+PhyreKit.m in Sources */,
-				7E148679E1074F2DAB3767B9 /* NSArray+PhyreKit.m in Sources */,
-				7BD6F98A81CB465D90004CFC /* NSAttributedString+PhyreKit.m in Sources */,
-				B7267A609AAA474787A6E541 /* NSCache+PhyreKit.m in Sources */,
-				02E831BCBEFA4EA99BBCABC3 /* NSDictionary+PhyreKit.m in Sources */,
-				EF61E635B3DC4FABA3EBEF33 /* NSObject+PhyreKit.m in Sources */,
-				F0226758C6D241EDA1877B01 /* NSString+PhyreKit.m in Sources */,
-				F8EDF765DEA24F799918CAAA /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */,
-				89770A938C1B4CB69776FC68 /* UIColor+Expanded.m in Sources */,
-				883F018535D2448293CE51C7 /* UIFont+PhyreKit.m in Sources */,
-				6B8FB9008D7F40EE8F2F941A /* UIImage+ImageEffects.m in Sources */,
-				106AFBBD56FD479181038C4D /* UIImage+PhyreKit.m in Sources */,
-				FC7D65AC495F4780B5C02A89 /* UIViewController+PhyreKit.m in Sources */,
+				1E2159AE4FF14AF6A48287F5 /* Pods-PhyreKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B6A69A43844DC596CE3CE9 /* Sources */ = {
+		CC3416EA380A4CF39EF09461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E394DBBCB5C49629C87A798 /* Pods-PhyreKit-dummy.m in Sources */,
+				C9A3F3C71937D28C0061587D /* UIAlertView+PhyreKit.m in Sources */,
+				CA4ACB8E352F4C529FF3F8B2 /* CLLocation+PhyreKit.m in Sources */,
+				23C748650D3C451BAC2DAF06 /* NSArray+PhyreKit.m in Sources */,
+				A8A96398EA864AECA62D9619 /* NSAttributedString+PhyreKit.m in Sources */,
+				C9A3F3C31937D1F30061587D /* NSError+PhyreKit.m in Sources */,
+				850D0AD005FB455F8E5E2B64 /* NSCache+PhyreKit.m in Sources */,
+				637574E5A1274BF9BC4BF92E /* NSDictionary+PhyreKit.m in Sources */,
+				B60785A91C574780B0DDA532 /* NSObject+PhyreKit.m in Sources */,
+				182E77E19D8C484E8A573133 /* NSString+PhyreKit.m in Sources */,
+				1BFE2527A56D47F285FD3616 /* PHYConstantsAndMacros.m in Sources */,
+				EFCB2E0647994407B4F042C5 /* Pods-PhyreKit-PhyreKit-dummy.m in Sources */,
+				CAE8E9FEB3AB4251A48C014A /* UIColor+Expanded.m in Sources */,
+				11123FF8065C4E0299574F97 /* UIFont+PhyreKit.m in Sources */,
+				26685DA779984767A794C024 /* UIImage+ImageEffects.m in Sources */,
+				6F5A306B5EC04F5C9D063602 /* UIImage+PhyreKit.m in Sources */,
+				B6CA35B57DEB4B68A706283F /* UIView+PhyreKit.m in Sources */,
+				FF62CC3E94B043F5BE03AC57 /* UIViewController+PhyreKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC210EB409664776840DDE54 /* PBXTargetDependency */ = {
+		C85078E06DE64293A4FE1DC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DF5142D6914469896C068E2 /* Pods-PhyreKit-PhyreKit */;
-			targetProxy = 56747A80E7B647CCA5166178 /* PBXContainerItemProxy */;
+			target = 7E15C586F99849ADAAD62A97 /* Pods-PhyreKit-PhyreKit */;
+			targetProxy = 0163EDA637DD4285A71F76EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18398BD870114C8690BD7757 /* Debug */ = {
+		1120C5CA480843CDB425D9A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDD1E55FE6348749C0D8952 /* Pods-PhyreKit.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		202DB0C460B04BE18FEC65FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDD1E55FE6348749C0D8952 /* Pods-PhyreKit.xcconfig */;
+			baseConfigurationReference = 1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -446,65 +445,7 @@
 			};
 			name = Release;
 		};
-		398180EED9774607A5AB3DC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8038D1FB4724BF38D3FB6FB /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pods-PhyreKit-PhyreKit-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		402B503E31F5452A96699179 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		67BBF408B7EC4EA78F98357C /* Debug */ = {
+		216DC1F4843844C5A1FA3A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -540,9 +481,64 @@
 			};
 			name = Debug;
 		};
-		BA472B33D8B54911B780AE8D /* Release */ = {
+		4892E4516F474B41BDEEBF52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8038D1FB4724BF38D3FB6FB /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
+			baseConfigurationReference = 6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PhyreKit-PhyreKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9422D60CF7334A3489082E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1322B8EC2D924A80AA049411 /* Pods-PhyreKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF1C4669803F4CD1B4963B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6A1249A88140A1815EAB15 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
@@ -570,37 +566,67 @@
 			};
 			name = Release;
 		};
+		E6A55A73FBE04C66A924A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7171AD91421B498FBE1084EF /* Build configuration list for PBXProject "Pods" */ = {
+		24154731078244C692A8733A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67BBF408B7EC4EA78F98357C /* Debug */,
-				402B503E31F5452A96699179 /* Release */,
+				4892E4516F474B41BDEEBF52 /* Debug */,
+				CF1C4669803F4CD1B4963B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA47B1E2F91A41128E40F8EE /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */ = {
+		37C7DEAE29CE4945AC620644 /* Build configuration list for PBXNativeTarget "Pods-PhyreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18398BD870114C8690BD7757 /* Debug */,
-				202DB0C460B04BE18FEC65FE /* Release */,
+				9422D60CF7334A3489082E64 /* Debug */,
+				1120C5CA480843CDB425D9A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1376132AA5249868C96C10A /* Build configuration list for PBXNativeTarget "Pods-PhyreKit-PhyreKit" */ = {
+		D26BF528DF734035A7072FC7 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				398180EED9774607A5AB3DC3 /* Debug */,
-				BA472B33D8B54911B780AE8D /* Release */,
+				216DC1F4843844C5A1FA3A3D /* Debug */,
+				E6A55A73FBE04C66A924A6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB0E74610EE54A9E9E2F8455 /* Project object */;
+	rootObject = F1859609F406482383D34587 /* Project object */;
 }

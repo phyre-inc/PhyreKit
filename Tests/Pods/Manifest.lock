@@ -1,13 +1,13 @@
 PODS:
-  - PhyreKit (0.1.2):
+  - PhyreKit (0.1.4):
     - PhyreKit/CoreLocation
     - PhyreKit/Foundation
     - PhyreKit/UIKit
     - PhyreKit/Vendor
-  - PhyreKit/CoreLocation (0.1.2)
-  - PhyreKit/Foundation (0.1.2)
-  - PhyreKit/UIKit (0.1.2)
-  - PhyreKit/Vendor (0.1.2)
+  - PhyreKit/CoreLocation (0.1.4)
+  - PhyreKit/Foundation (0.1.4)
+  - PhyreKit/UIKit (0.1.4)
+  - PhyreKit/Vendor (0.1.4)
 
 DEPENDENCIES:
   - PhyreKit (from `../`)
@@ -17,6 +17,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PhyreKit: 4c0345e90c842b6efbd66c63a339e48fcea6ad6e
+  PhyreKit: 4f86a27be0928b792efeb7631bcb50ef47a1c324
 
-COCOAPODS: 0.31.1
+COCOAPODS: 0.33.1
