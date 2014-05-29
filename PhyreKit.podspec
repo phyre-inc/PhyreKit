@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PhyreKit"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Common utilities for Phyre Inc."
   s.homepage         = "http://rallyapp.io"
   s.license          = 'MIT'
