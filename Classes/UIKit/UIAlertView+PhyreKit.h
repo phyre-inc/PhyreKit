@@ -11,6 +11,6 @@
 
 @interface UIAlertView (PhyreKit)
 
-- (instancetype)phy_alertViewWithError:(NSError *)error;
++ (instancetype)phy_alertViewWithError:(NSError *)error;
 
 @end

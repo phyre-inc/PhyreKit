@@ -10,7 +10,7 @@
 
 @implementation UIAlertView (PhyreKit)
 
-- (instancetype)phy_alertViewWithError:(NSError *)error
++ (instancetype)phy_alertViewWithError:(NSError *)error
 {
     NSString *title = nil;
 	NSString *message = nil;
