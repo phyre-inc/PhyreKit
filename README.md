@@ -1,13 +1,6 @@
 # PhyreKit
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/PhyreKit/badge.png)](http://cocoadocs.org/docsets/PhyreKit)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PhyreKit/badge.png)](http://cocoadocs.org/docsets/PhyreKit)
-
-## Usage
-
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Common utilities used in projects by Phyre Inc.
 
 ## Installation
 
@@ -18,7 +11,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Matt Ricketson, mricketson@mac.com
+Matt Ricketson, matt@phyreup.com
 
 ## License
 
