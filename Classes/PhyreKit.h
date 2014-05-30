@@ -11,20 +11,9 @@
 
 #import <PhyreKit/PHYConstantsAndMacros.h>
 
-#import <PhyreKit/NSObject+PhyreKit.h>
-#import <PhyreKit/NSString+PhyreKit.h>
-#import <PhyreKit/NSAttributedString+PhyreKit.h>
-#import <PhyreKit/NSArray+PhyreKit.h>
-#import <PhyreKit/NSDictionary+PhyreKit.h>
-#import <PhyreKit/NSCache+PhyreKit.h>
-
-#import <PhyreKit/UIFont+PhyreKit.h>
-#import <PhyreKit/UIImage+PhyreKit.h>
-#import <PhyreKit/UIViewController+PhyreKit.h>
-
-#import <PhyreKit/CLLocation+PhyreKit.h>
-
-#import <PhyreKit/UIColor+Expanded.h>
-#import <PhyreKit/UIImage+ImageEffects.h>
+#import <PhyreKit/Foundation+PhyreKit.h>
+#import <PhyreKit/UIKit+PhyreKit.h>
+#import <PhyreKit/CoreLocation+PhyreKit.h>
+#import <PhyreKit/Vendor+PhyreKit.h>
 
 #endif

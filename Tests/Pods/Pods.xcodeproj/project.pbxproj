@@ -97,6 +97,10 @@
 		C11262F366FE4ABEA36CA337 /* Pods-PhyreKit-PhyreKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhyreKit-PhyreKit-Private.xcconfig"; sourceTree = "<group>"; };
 		C1A1C5AA28254501BDD5170A /* NSObject+PhyreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PhyreKit.m"; path = "Classes/Foundation/NSObject+PhyreKit.m"; sourceTree = "<group>"; };
 		C747FF41E8F04E87A1E92EB3 /* UIAlertView+PhyreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+PhyreKit.h"; path = "Classes/UIKit/UIAlertView+PhyreKit.h"; sourceTree = "<group>"; };
+		C9227AF119391D02004A0B93 /* CoreLocation+PhyreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CoreLocation+PhyreKit.h"; path = "Classes/CoreLocation/CoreLocation+PhyreKit.h"; sourceTree = "<group>"; };
+		C9227AF219391D3A004A0B93 /* Foundation+PhyreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Foundation+PhyreKit.h"; path = "Classes/Foundation/Foundation+PhyreKit.h"; sourceTree = "<group>"; };
+		C9227AF319391D82004A0B93 /* UIKit+PhyreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+PhyreKit.h"; sourceTree = "<group>"; };
+		C9227AF419391DB6004A0B93 /* Vendor+PhyreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vendor+PhyreKit.h"; sourceTree = "<group>"; };
 		C9A24783FA0B463C9A433DEE /* Pods-PhyreKit-PhyreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhyreKit-PhyreKit-dummy.m"; sourceTree = "<group>"; };
 		C9C3CF571937F1890075A06D /* CGGeometry+PhyreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+PhyreKit.h"; path = "Classes/Foundation/CGGeometry+PhyreKit.h"; sourceTree = "<group>"; };
 		C9C3CF581937F1890075A06D /* CGGeometry+PhyreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+PhyreKit.m"; path = "Classes/Foundation/CGGeometry+PhyreKit.m"; sourceTree = "<group>"; };
@@ -146,9 +150,9 @@
 		0E10F08DF7E040469ED2A240 /* PhyreKit */ = {
 			isa = PBXGroup;
 			children = (
+				D5E5D8082C114F549871B891 /* PhyreKit.h */,
 				55716990EAEC4F4580755BF8 /* PHYConstantsAndMacros.h */,
 				EC4A55537B714091801F2B68 /* PHYConstantsAndMacros.m */,
-				D5E5D8082C114F549871B891 /* PhyreKit.h */,
 				6D8C36042FD34FB1ABC5B752 /* CoreLocation */,
 				9ECF421185B641D0A0C9501F /* Foundation */,
 				56A5F88A51604FB891FAACD4 /* Support Files */,
@@ -186,6 +190,7 @@
 		6D8C36042FD34FB1ABC5B752 /* CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
+				C9227AF119391D02004A0B93 /* CoreLocation+PhyreKit.h */,
 				D673C826F4BC48A58E0012DE /* CLLocation+PhyreKit.h */,
 				382F4FBA2F4841AAA33F2C20 /* CLLocation+PhyreKit.m */,
 			);
@@ -215,6 +220,7 @@
 		9ECF421185B641D0A0C9501F /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				C9227AF219391D3A004A0B93 /* Foundation+PhyreKit.h */,
 				F0145FAB294A498498E5D402 /* NSArray+PhyreKit.h */,
 				EED849B94A5E49049DDB5B8B /* NSArray+PhyreKit.m */,
 				B1A972D743F746A89AF00B4B /* NSAttributedString+PhyreKit.h */,
@@ -246,6 +252,7 @@
 		B533329229764AF1AAEF34E8 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				C9227AF419391DB6004A0B93 /* Vendor+PhyreKit.h */,
 				0A64E621397C47A998773C0E /* UIColor+Expanded.h */,
 				87BB7513B111466194AB5A54 /* UIColor+Expanded.m */,
 				DAD8974E84EC41CB92FB7BEF /* UIImage+ImageEffects.h */,
@@ -274,6 +281,7 @@
 		F07EAE70386047008EF5E340 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9227AF319391D82004A0B93 /* UIKit+PhyreKit.h */,
 				C747FF41E8F04E87A1E92EB3 /* UIAlertView+PhyreKit.h */,
 				430A2EED2D8C425C8FED4429 /* UIAlertView+PhyreKit.m */,
 				02FC2A7F7A1242DE91F1C8B7 /* UIFont+PhyreKit.h */,
