@@ -1,16 +1,24 @@
 PODS:
-  - PhyreKit (0.2.0):
+  - Kiwi (2.2.4):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/SenTestingKit (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - PhyreKit (0.2.4):
     - PhyreKit/CoreLocation
     - PhyreKit/Foundation
     - PhyreKit/UIKit
     - PhyreKit/Vendor
-  - PhyreKit/CoreLocation (0.2.0)
-  - PhyreKit/Foundation (0.2.0)
-  - PhyreKit/UIKit (0.2.0):
+  - PhyreKit/CoreLocation (0.2.4)
+  - PhyreKit/Foundation (0.2.4)
+  - PhyreKit/UIKit (0.2.4):
     - PhyreKit/Foundation
-  - PhyreKit/Vendor (0.2.0)
+  - PhyreKit/Vendor (0.2.4)
 
 DEPENDENCIES:
+  - Kiwi (~> 2.2)
   - PhyreKit (from `../`)
 
 EXTERNAL SOURCES:
@@ -18,6 +26,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PhyreKit: 827799c39e5c47f9fc30561d13427c742c4956ed
+  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  PhyreKit: 262f51e43cfa11ad7c273e770e68e8206234b82b
 
 COCOAPODS: 0.33.1

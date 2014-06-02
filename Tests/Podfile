@@ -3,4 +3,5 @@ target "PhyreKit" do
 end
 
 target "PhyreKitTests" do
+    pod "Kiwi", "~> 2.2"
 end

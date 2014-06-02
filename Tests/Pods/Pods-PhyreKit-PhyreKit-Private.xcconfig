@@ -1,5 +1,5 @@
 #include "Pods-PhyreKit-PhyreKit.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PhyreKit" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/PhyreKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PhyreKit" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Kiwi" "${PODS_ROOT}/Headers/PhyreKit"
 OTHER_LDFLAGS = -ObjC ${PODS_PHYREKIT_PHYREKIT_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
