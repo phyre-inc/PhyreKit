@@ -1,7 +1,9 @@
+platform :ios, '7.0'
+
 target "PhyreKit" do
     pod "PhyreKit", :path => "../"
 end
 
 target "PhyreKitTests" do
-    pod "Kiwi", "~> 2.2"
+    pod "Kiwi/XCTest", "~> 2.2"
 end

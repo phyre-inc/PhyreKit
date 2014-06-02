@@ -21,6 +21,7 @@
 		C9083F31193CBD7900DA6733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9083F10193CBD7900DA6733 /* Foundation.framework */; };
 		C9083F32193CBD7900DA6733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9083F14193CBD7900DA6733 /* UIKit.framework */; };
 		C9083F3A193CBD7900DA6733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9083F38193CBD7900DA6733 /* InfoPlist.strings */; };
+		C9772ED3193CBEA800E7537D /* NSString_PhyreKitTestsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C9772ED2193CBEA800E7537D /* NSString_PhyreKitTestsSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C9083F2F193CBD7900DA6733 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9083F37193CBD7900DA6733 /* PhyreKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhyreKitTests-Info.plist"; sourceTree = "<group>"; };
 		C9083F39193CBD7900DA6733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9772ED2193CBEA800E7537D /* NSString_PhyreKitTestsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_PhyreKitTestsSpec.m; sourceTree = "<group>"; };
 		EAC8D30BDCB540B5B6D3ABF5 /* Pods-PhyreKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhyreKitTests.xcconfig"; path = "Pods/Pods-PhyreKitTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 		C9083F35193CBD7900DA6733 /* PhyreKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				C9772ED2193CBEA800E7537D /* NSString_PhyreKitTestsSpec.m */,
 				C9083F36193CBD7900DA6733 /* Supporting Files */,
 			);
 			path = PhyreKitTests;
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9772ED3193CBEA800E7537D /* NSString_PhyreKitTestsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

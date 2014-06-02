@@ -3,4 +3,3 @@
 #endif
 
 #import "Pods-PhyreKitTests-environment.h"
-#import <XCTest/XCTest.h>
