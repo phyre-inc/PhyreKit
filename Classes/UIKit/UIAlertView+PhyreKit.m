@@ -37,4 +37,20 @@
 	return alertView;
 }
 
++ (instancetype)phy_showAlertViewWithError:(NSError *)error
+{
+    NSString *title = nil;
+	NSString *message = nil;
+	
+	PHYGetTitleAndMessageFromError(error, &title, &message);
+	
+	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                        message:message
+                                                       delegate:nil
+                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                              otherButtonTitles:nil];
+	[alertView show];
+    return alertView;
+}
+
 @end
