@@ -29,5 +29,6 @@
 #import <PhyreKit/NSArray+PhyreKit.h>
 #import <PhyreKit/NSDictionary+PhyreKit.h>
 #import <PhyreKit/NSCache+PhyreKit.h>
+#import <PhyreKit/NSDate+PhyreKit.h>
 
 #endif
