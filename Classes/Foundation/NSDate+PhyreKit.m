@@ -16,7 +16,7 @@
 }
 
 + (NSString *)phy_localizedStringForDaySinceNowFromTimestamp:(NSDate *)timestamp
-                                     showsTimeOfDayForToday:(BOOL)showsTimeOfDayForToday
+                                      showsTimeOfDayForToday:(BOOL)showsTimeOfDayForToday
 {
     NSParameterAssert(timestamp);
     
@@ -38,10 +38,15 @@
 	[dayComponents setDay:[dayComponents day]-1];
 	NSDate *yesterdayDay = [__calendar dateFromComponents:dayComponents];
 	
-	NSDate *todayWeek = [__calendar dateFromComponents:[__calendar components:weekComparisonUnits fromDate:[NSDate date]]];
+    NSDateComponents *todayWeekComponents = [__calendar components:weekComparisonUnits fromDate:[NSDate date]];
+    NSInteger todayWeekOfYear = todayWeekComponents.weekOfYear;
+    NSInteger todayYear = todayWeekComponents.year;
 	
 	NSDate *timestampDay = [__calendar dateFromComponents:[__calendar components:dayComparisonUnits fromDate:timestamp]];
-	NSDate *timestampWeek = [__calendar dateFromComponents:[__calendar components:weekComparisonUnits fromDate:timestamp]];
+	
+    NSDateComponents *timestampWeekComponents = [__calendar components:weekComparisonUnits fromDate:timestamp];
+    NSInteger timestampWeekOfYear = timestampWeekComponents.weekOfYear;
+    NSInteger timestampYear = timestampWeekComponents.year;
 	
 	if ([todayDay isEqualToDate:timestampDay]) {
         if (showsTimeOfDayForToday) {
@@ -53,7 +58,7 @@
         }
 	} else if ([yesterdayDay isEqualToDate:timestampDay]) {
 		return NSLocalizedString(@"Yesterday", nil);
-	} else if ([todayWeek isEqualToDate:timestampWeek]) {
+	} else if (todayYear == timestampYear && todayWeekOfYear == timestampWeekOfYear) {
 		NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 		[formatter setDateFormat:@"EEEE"];
 		return [formatter stringFromDate:timestamp];
